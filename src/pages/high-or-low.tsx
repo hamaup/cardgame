@@ -33,7 +33,7 @@ const HighOrLow: React.FC = () => {
   };
 
   const displayCard = (card: Card): string => {
-    return `/images/${card.suit} -${card.value}.svg`;
+    return `/images/${card.suit}-${card.value}.svg`;
   };
 
   const play = (guess: string): void => {

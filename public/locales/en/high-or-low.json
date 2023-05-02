@@ -1,0 +1,23 @@
+{
+  "title": "High-Low",
+  "description": "Play High-Low! It's a game where you guess if the next card will be higher or lower than the current card! Try your luck and guess the value of the randomly drawn card.",
+  "welcomeMessage": "Welcome! Let's play High-Low!",
+  "guessNextCard": "Guess if the next card will be higher or lower than the current card.",
+  "higher": "Higher",
+  "lower": "Lower",
+  "cardsEqual": "Cards are equal!",
+  "correctGuess": "Correct!",
+  "incorrectGuess": "Incorrect. Try again!",
+  "rulesTitle": "High-Low: Rules",
+  "objective": "Objective",
+  "objectiveText": "Guess if the next card will be higher or lower than the current card.",
+  "howToPlay": "How to Play",
+  "rule1": "A new card will be drawn.",
+  "rule2": "Guess if the next card will be higher or lower than the current card.",
+  "rule3": "If your guess is correct, you can continue guessing.",
+  "rule4": "If your guess is incorrect, the game is over.",
+  "cardRankings": "Card Rankings",
+  "cardRankingsText": "Ranked from lowest to highest: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A.",
+  "note": "Note",
+  "noteText": "In this game, Ace is considered high."
+}

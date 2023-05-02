@@ -1,0 +1,23 @@
+{
+  "title": "Hra Vysoká a nízká",
+  "description": "Hrajte hru Vysoká a nízká! Hádejte, zda bude další karta vyšší nebo nižší než současná karta! Zkuste své štěstí a uhádněte počet náhodně vylosované karty.",
+  "welcomeMessage": "Vítejte! Hrajte hru Vysoká a nízká!",
+  "guessNextCard": "Uhádněte, zda bude další karta vyšší nebo nižší než současná karta.",
+  "higher": "Vyšší",
+  "lower": "Nižší",
+  "cardsEqual": "Karty jsou stejné!",
+  "correctGuess": "Správná odpověď!",
+  "incorrectGuess": "Nesprávná odpověď. Zkuste to znovu.",
+  "rulesTitle": "Pravidla hry Vysoká a nízká",
+  "objective": "Cíl hry",
+  "objectiveText": "Uhodnout, zda bude další karta vyšší nebo nižší než současná karta.",
+  "howToPlay": "Jak hrát",
+  "rule1": "Bude vylosována nová karta.",
+  "rule2": "Uhádněte, zda bude další karta vyšší nebo nižší než současná karta.",
+  "rule3": "Pokud uhodnete správně, můžete pokračovat v hádání.",
+  "rule4": "Pokud uhodnete špatně, hra skončí.",
+  "cardRankings": "Hodnocení karet",
+  "cardRankingsText": "Od nejnižší po nejvyšší: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A.",
+  "note": "Poznámka",
+  "noteText": "V této hře jsou esa považována za vyšší karty."
+}

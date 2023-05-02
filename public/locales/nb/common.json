@@ -1,0 +1,10 @@
+{
+  "title": "Kortų žaidimų kolekcija",
+  "description": "Mėgaukitės įvairiais kortų žaidimais!",
+  "game": {
+    "blackjack": "Blackjack'as",
+    "guess-the-card": "Atspėk kortą",
+    "high-or-low": "Aukštesnė ar žemesnė",
+    "memory-game": "Atminties žaidimas"
+  }
+}

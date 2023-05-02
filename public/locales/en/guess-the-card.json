@@ -1,0 +1,21 @@
+{
+  "title": "Guess the Card",
+  "description": "Play the card guessing game! What's your guess? Take a card and try to guess its value.",
+  "welcomeMessage": "Welcome! Let's play Guess the Card!",
+  "placeholder": "Enter your guess...",
+  "guess": "Guess",
+  "correctGuess": "Correct answer! Congratulations!",
+  "incorrectGuess": "Wrong answer! The correct value was {{value}}.",
+  "rulesTitle": "Rules",
+  "objective": "Objective",
+  "objectiveText": "Guess the value of a randomly drawn card.",
+  "howToPlay": "How to Play",
+  "rule1": "Press the buttons from 1 to 13 and guess the value of the card.",
+  "rule2": "After guessing, the card will be displayed.",
+  "rule3": "If the guess is correct, you win!",
+  "rule4": "Keep trying until you get the correct answer.",
+  "cardRankings": "Card Rankings",
+  "cardRankingsText": "The cards are ranked from 1 (Ace) to 13 (King).",
+  "note": "Note",
+  "noteText": "There are no points or penalties in this game. It's just for fun!"
+  }

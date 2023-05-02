@@ -1,0 +1,10 @@
+{
+  "title": "카드 게임 모음",
+  "description": "다양한 카드 게임을 즐겨보세요!",
+  "game": {
+    "blackjack": "블랙잭",
+    "guess-the-card": "카드 맞추기",
+    "high-or-low": "높은 거 or 낮은 거",
+    "memory-game": "기억 게임"
+  }
+}

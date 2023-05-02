@@ -1,0 +1,21 @@
+{
+  "title": "Adivinhe a carta",
+  "description": "Jogo de adivinhação de cartas! Tente adivinhar o valor da carta que foi selecionada aleatoriamente. Teste a sua sorte!",
+  "welcomeMessage": "Bem-vindo! Vamos jogar Adivinhe a carta!",
+  "placeholder": "Digite sua adivinhação...",
+  "guess": "Adivinhar",
+  "correctGuess": "Resposta correta! Parabéns!",
+  "incorrectGuess": "Resposta incorreta! O valor correto era {{value}}.",
+  "rulesTitle": "Regras",
+  "objective": "Objetivo",
+  "objectiveText": "Adivinhar o valor de uma carta selecionada aleatoriamente.",
+  "howToPlay": "Como jogar",
+  "rule1": "Clique nos botões de 1 a 13 para fazer sua adivinhação do valor da carta.",
+  "rule2": "Depois de adivinhar, a carta será revelada.",
+  "rule3": "Se você acertar, você ganha!",
+  "rule4": "Continue tentando até acertar.",
+  "cardRankings": "Classificação das cartas",
+  "cardRankingsText": "As cartas são classificadas em ordem de 1 (ás) a 13 (rei).",
+  "note": "Nota",
+  "noteText": "Este jogo não tem pontos ou penalidades. É apenas para diversão!"
+}

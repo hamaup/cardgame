@@ -1,0 +1,23 @@
+{
+  "title":"Alto e Basso",
+  "description": "Gioca ad Alto e Basso! Indovina se la prossima carta sarà più alta o più bassa di quella attuale. Prova la tua fortuna nel cercare di indovinare il valore della carta estratta casualmente.",
+  "welcomeMessage": "Benvenuto! Gioca ad Alto e Basso!",
+  "guessNextCard": "Indovina se la prossima carta sarà più alta o più bassa di quella attuale.",
+  "higher": "Alto",
+  "lower": "Basso",
+  "cardsEqual": "Le carte sono uguali!",
+  "correctGuess": "Corretto!",
+  "incorrectGuess": "Sbagliato. Riprova!",
+  "rulesTitle": "Alto e Basso: Regole",
+  "objective": "Obiettivo",
+  "objectiveText": "Indovina se la prossima carta sarà più alta o più bassa di quella attuale.",
+  "howToPlay": "Come si gioca",
+  "rule1": "Viene estratta una nuova carta.",
+  "rule2": "Indovina se la prossima carta sarà più alta o più bassa di quella attuale.",
+  "rule3": "Se indovini, puoi continuare a giocare.",
+  "rule4": "Se sbagli, il gioco finisce.",
+  "cardRankings": "Valori delle carte",
+  "cardRankingsText": "I valori delle carte vanno dal più basso al più alto: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A.",
+  "note": "Nota",
+  "noteText": "In questo gioco, l'asso conta come carta alta."
+}

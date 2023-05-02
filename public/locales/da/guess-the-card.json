@@ -1,0 +1,21 @@
+{
+  "title": "Gæt kortet",
+  "description": "Spil kort og prøv at gætte værdien på et tilfældigt trukket kort. Test din intuition og se, om du kan vinde spillet.",
+  "welcomeMessage": "Velkommen! Lad os spille Gæt kortet!",
+  "placeholder": "Indtast dit gæt...",
+  "guess": "Gæt",
+  "correctGuess": "Korrekt gæt! Tillykke!",
+  "incorrectGuess": "Forkert gæt! Korrekt værdi var {{value}}.",
+  "rulesTitle": "Regler",
+  "objective": "Formål",
+  "objectiveText": "Gæt værdien på et tilfældigt trukket kort.",
+  "howToPlay": "Sådan spiller du",
+  "rule1": "Klik på knapperne 1-13 for at gætte kortets værdi.",
+  "rule2": "Efter dit gæt vises kortet.",
+  "rule3": "Hvis du gætter korrekt, vinder du!",
+  "rule4": "Fortsæt med at spille, indtil du gætter korrekt.",
+  "cardRankings": "Kortværdier",
+  "cardRankingsText": "Kortene rangeres fra 1 (Es) til 13 (Konge).",
+  "note": "Bemærk",
+  "noteText": "Dette spil har ingen point eller straf. Det er kun for sjov!"
+  }

@@ -1,0 +1,10 @@
+{
+  "title": "Coleção de jogos de cartas",
+  "description": "Divirta-se com vários jogos de cartas!",
+  "game": {
+    "blackjack": "Blackjack",
+    "guess-the-card": "Adivinhe a carta",
+    "high-or-low": "Alto ou Baixo",
+    "memory-game": "Jogo da memória"
+  }
+}

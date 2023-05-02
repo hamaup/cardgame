@@ -1,0 +1,21 @@
+{
+  "title": "Pogodi kartu",
+  "description": "Igrajte igru Pogodi kartu! Pokušajte pogoditi koja karta će se okrenuti! Iskušajte svoju sreću i pogodite vrijednost slučajno odabrane karte.",
+  "welcomeMessage": "Dobrodošli! Igrajte Pogodi kartu!",
+  "placeholder": "Unesite svoj odgovor...",
+  "guess": "Pogodi",
+  "correctGuess": "Točan odgovor! Čestitamo!",
+  "incorrectGuess": "Pogrešan odgovor! Točna vrijednost je bila {{value}}.",
+  "rulesTitle": "Pravila",
+  "objective": "Cilj",
+  "objectiveText": "Pogoditi vrijednost slučajno odabrane karte.",
+  "howToPlay": "Kako igrati",
+  "rule1": "Pritisnite gumbe od 1 do 13 i pokušajte pogoditi vrijednost karte.",
+  "rule2": "Nakon što unesete svoj odgovor, karta će se prikazati.",
+  "rule3": "Ako ste pogodili točno, pobijedili ste!",
+  "rule4": "Nastavite pokušavati dok ne pogodite točno.",
+  "cardRankings": "Rangiranje karata",
+  "cardRankingsText": "Karte su rangirane od 1 (As) do 13 (Kralj).",
+  "note": "Napomena",
+  "noteText": "U ovoj igri nema bodova niti kazni. Igra je samo za zabavu!"
+  }

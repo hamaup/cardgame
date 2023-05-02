@@ -1,0 +1,21 @@
+{
+  "title": "Ugani karto",
+  "description": "Igrajte igro ugani karto! Poskusite uganiti vrednost naključno izbrane karte in preizkusite svojo srečo.",
+  "welcomeMessage": "Dobrodošli! Začnimo z igranjem igre Ugani karto!",
+  "placeholder": "Vnesite svojo uganitev...",
+  "guess": "Ugibaj",
+  "correctGuess": "Pravilno! Čestitamo!",
+  "incorrectGuess": "Napačno! Pravilna vrednost je {{value}}.",
+  "rulesTitle": "Pravila",
+  "objective": "Cilj igre",
+  "objectiveText": "Uganiti vrednost naključno izbrane karte.",
+  "howToPlay": "Kako igrati",
+  "rule1": "Pritisnite gumbe od 1 do 13 in uganite vrednost karte.",
+  "rule2": "Karta se bo prikazala po tem, ko boste vnesli svojo uganitev.",
+  "rule3": "Če uganete pravilno, ste zmagovalec!",
+  "rule4": "Poskusite, dokler ne najdete prave vrednosti karte.",
+  "cardRankings": "Uvrstitve kart",
+  "cardRankingsText": "Karte so uvrščene od 1 (as) do 13 (kralj).",
+  "note": "Opomba",
+  "noteText": "V tej igri ni točkovanja ali kazni. Igra je namenjena samo zabavi!"
+}

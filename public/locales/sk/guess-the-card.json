@@ -1,0 +1,21 @@
+{
+  "title": "Uhádni kartu",
+  "description": "Hra Uhádni kartu! Uhádnite, aká číslo karty sa objaví! Vyskúšajte si svoje šťastie a uhádnite hodnotu náhodne vybranej karty.",
+  "welcomeMessage": "Vitajte! Hrajte hru Uhádni kartu!",
+  "placeholder": "Zadajte svoj odhad...",
+  "guess": "Uhádnite",
+  "correctGuess": "Správne! Gratulujeme!",
+  "incorrectGuess": "Nesprávne! Správna hodnota bola {{value}}.",
+  "rulesTitle": "Pravidlá",
+  "objective": "Cieľ",
+  "objectiveText": "Uhádnutie hodnoty náhodne vybranej karty.",
+  "howToPlay": "Ako hrať",
+  "rule1": "Stlačte tlačidlá od 1 do 13 a odhadnite hodnotu karty.",
+  "rule2": "Po uhádnutí sa zobrazí karta.",
+  "rule3": "Ak je váš odhad správny, vyhrávate!",
+  "rule4": "Pokračujte v pokuse až kým neuhádnete správnu hodnotu.",
+  "cardRankings": "Kartečky",
+  "cardRankingsText": "Karty sú zoradené od 1 (eso) do 13 (kráľ).",
+  "note": "Poznámka",
+  "noteText": "Táto hra nie je o bodoch ani o treste. Je to len pre zábavu!"
+}

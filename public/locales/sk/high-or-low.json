@@ -1,0 +1,23 @@
+{
+  "title": "Hra Vysoká alebo nízka",
+  "description": "Zahrájte si hru Vysoká alebo nízka! Zistite, či je ďalšia karta vyššia alebo nižšia ako aktuálna karta. Vyskúšajte si šťastie v uhádnutí náhodne vybraných kariet.",
+  "welcomeMessage": "Vitajte v hre Vysoká alebo nízka!",
+  "guessNextCard": "Uhádnite, či je ďalšia karta vyššia alebo nižšia ako aktuálna karta.",
+  "higher": "Vyššia",
+  "lower": "Nižšia",
+  "cardsEqual": "Karty sú rovnaké!",
+  "correctGuess": "Správne!",
+  "incorrectGuess": "Nesprávne. Skúste to znova.",
+  "rulesTitle": "Pravidlá hry Vysoká alebo nízka",
+  "objective": "Cieľ",
+  "objectiveText": "Uhádnuť, či je ďalšia karta vyššia alebo nižšia ako aktuálna karta.",
+  "howToPlay": "Ako sa hraje",
+  "rule1": "Ťahaná je nová karta.",
+  "rule2": "Uhádnite, či je ďalšia karta vyššia alebo nižšia ako aktuálna karta.",
+  "rule3": "Ak uhádnete správne, môžete pokračovať v hre.",
+  "rule4": "Ak uhádnete nesprávne, hra sa končí.",
+  "cardRankings": "Poradie kariet",
+  "cardRankingsText": "Od najnižšej po najvyššiu: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A.",
+  "note": "Poznámka",
+  "noteText": "V tejto hre sa eso považuje za vyššiu kartu."
+}

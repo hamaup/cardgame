@@ -1,0 +1,10 @@
+{
+  "title": "Bộ sưu tập trò chơi bài",
+  "description": "Hãy thưởng thức nhiều trò chơi bài thú vị!",
+  "game": {
+    "blackjack": "Xì phé",
+    "guess-the-card": "Đoán lá bài",
+    "high-or-low": "Cao hay thấp",
+    "memory-game": "Trò chơi đánh nhớ"
+  }
+}

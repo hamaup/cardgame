@@ -1,0 +1,23 @@
+{
+  "title":"Visoko-nizko",
+  "description": "Igrajte igro Visoko-nizko! Uganite, ali je naslednja karta višja ali nižja od trenutne karte! Preizkusite svojo srečo pri uganjanju števila naključno izvlečene karte.",
+  "welcomeMessage": "Dobrodošli! Igrajte igro Visoko-nizko!",
+  "guessNextCard": "Uganite, ali je naslednja karta višja ali nižja od trenutne karte.",
+  "higher": "Višja",
+  "lower": "Nižja",
+  "cardsEqual": "Karte so enake!",
+  "correctGuess": "Pravilno! Čestitamo!",
+  "incorrectGuess": "Napačno. Poskusite znova.",
+  "rulesTitle": "Visoko-nizko: Pravila igre",
+  "objective": "Cilj",
+  "objectiveText": "Ugotovite, ali je naslednja karta višja ali nižja od trenutne karte.",
+  "howToPlay": "Kako igrati",
+  "rule1": "Izvleče se nova karta.",
+  "rule2": "Uganite, ali je naslednja karta višja ali nižja od trenutne karte.",
+  "rule3": "Če je vaše ugibanje pravilno, lahko nadaljujete z ugibanjem.",
+  "rule4": "Če je vaše ugibanje napačno, je igre konec.",
+  "cardRankings": "Razvrstitev kart",
+  "cardRankingsText": "Od najnižje do najvišje: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A.",
+  "note": "Opomba",
+  "noteText": "V tej igri se as obravnava kot visoka karta."
+}

@@ -1,0 +1,68 @@
+.score {
+  @apply text-lg font-bold mb-4;
+}
+
+.role {
+  @apply text-2xl font-bold;
+}
+
+.cards {
+  @apply flex flex-wrap m-1 p-0;
+  /* 追加: 手札を横並びにする */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardImage {
+  @apply object-contain mx-2;
+  width: 100px;
+  height: 150px;
+
+}
+
+.disabledButton {
+  background-color: #ccc;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.modalBackdrop {
+  @apply fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center z-50;
+}
+
+.modal {
+  @apply bg-white p-6 rounded-lg shadow-xl max-w-xl mx-auto relative z-50;
+  width: 80%;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.modalContent {
+  @apply text-black flex flex-col items-center justify-center;
+  /* 追加: 高さを最大に設定 */
+  height: 100%;
+}
+
+.modalText {
+  @apply flex-grow flex-shrink;
+  /* 追加: テキストを上に配置 */
+  margin-bottom: auto;
+}
+
+.closeButtonContainer {
+  @apply flex-grow flex-shrink;
+  /* 追加: ボタンを下に配置 */
+  margin-top: auto;
+}
+
+.closeButton {
+  @apply text-lg py-2 px-4 border-none rounded bg-green-500 text-white cursor-pointer transition-colors duration-300;
+  /* 修正: positionプロパティをrelativeに変更 */
+  position: relative;
+  /* 追加: ボタンを下に配置 */
+  margin-top: 1rem;
+}
+
+.closeButton:hover {
+  @apply bg-green-700;
+}

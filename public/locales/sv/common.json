@@ -1,0 +1,10 @@
+{
+  "title": "Kortsamling",
+  "description": "Njut av olika kortspel!",
+  "game": {
+    "blackjack": "Blackjack",
+    "guess-the-card": "Gissa kortet",
+    "high-or-low": "Högre eller lägre",
+    "memory-game": "Memory-spel"
+  }
+}

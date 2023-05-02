@@ -1,0 +1,21 @@
+{
+  "title": "Indovina la carta",
+  "description": "Gioco per indovinare le carte! Indovina quale valore di carta verrà estratto? Prova la tua fortuna!",
+  "welcomeMessage": "Benvenuto! Gioca a Indovina la carta!",
+  "placeholder": "Inserisci il tuo tentativo...",
+  "guess": "Tentativo",
+  "correctGuess": "Risposta corretta! Congratulazioni!",
+  "incorrectGuess": "Risposta sbagliata! Il valore corretto era {{value}}.",
+  "rulesTitle": "Regole",
+  "objective": "Obiettivo",
+  "objectiveText": "Indovinare il valore della carta estratta casualmente.",
+  "howToPlay": "Come giocare",
+  "rule1": "Premi i pulsanti da 1 a 13 per indovinare il valore della carta.",
+  "rule2": "Dopo aver fatto il tentativo, verrà mostrata la carta estratta.",
+  "rule3": "Se hai indovinato il valore della carta, hai vinto!",
+  "rule4": "Continua a provare finché non indovini la carta.",
+  "cardRankings": "Classifiche delle carte",
+  "cardRankingsText": "Le carte sono classificate dal 1 (asso) al 13 (re).",
+  "note": "Nota",
+  "noteText": "Questo gioco non prevede punteggi o penalità. È solo per divertimento!"
+}

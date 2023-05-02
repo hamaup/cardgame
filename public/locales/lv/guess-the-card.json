@@ -1,0 +1,21 @@
+{
+  "title": "Uzmini kārti",
+  "description": "Spēle, kurā jāuzmin kārtis! Pamēģiniet savu veiksmi un miniet, kāda būs izvilkta kārts vērtība.",
+  "welcomeMessage": "Laipni lūgti! Pamēģiniet spēlēt 'Uzmini kārti'!",
+  "placeholder": "Ievadiet savu minējumu...",
+  "guess": "Minējums",
+  "correctGuess": "Pareizi! Apsveicam!",
+  "incorrectGuess": "Nepareizi! Pareizais skaitlis bija {{value}}.",
+  "rulesTitle": "Noteikumi",
+  "objective": "Mērķis",
+  "objectiveText": "Uzminēt izvilkto kārti.",
+  "howToPlay": "Kā spēlēt",
+  "rule1": "Nospiediet pogu no 1 līdz 13, lai uzminētu kārtīs.",
+  "rule2": "Pēc uzminējuma kārts tiks parādīta.",
+  "rule3": "Ja uzminējums ir pareizs, tad jūs uzvarat!",
+  "rule4": "Mēģiniet, kamēr nesanāk pareizs uzminējums.",
+  "cardRankings": "Kārtu rangs",
+  "cardRankingsText": "Kārtis tiek klasificētas no 1 (ases) līdz 13 (karalienes).",
+  "note": "Piezīme",
+  "noteText": "Šī spēle nav saistīta ar punktiem vai soda punktiem. To var spēlēt tikai izklaidēm!"
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Jocuri cu cărți",
+  "description": "Distrează-te cu diferite jocuri cu cărți!",
+  "game": {
+    "blackjack": "Blackjack",
+    "guess-the-card": "Ghicește cartea",
+    "high-or-low": "Mai mare sau mai mic",
+    "memory-game": "Joc de memorie"
+  }
+}

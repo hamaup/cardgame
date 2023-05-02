@@ -1,0 +1,23 @@
+{
+  "title": "High and Low",
+  "description": "Joacă High and Low! Acesta este un joc în care trebuie să ghicești dacă următoarea carte este mai mare sau mai mică decât cartea curentă! Încearcă-ți norocul ghicind numerele cartonate trase în mod aleatoriu.",
+  "welcomeMessage": "Bine ați venit! Joacă High and Low!",
+  "guessNextCard": "Ghicește dacă următoarea carte este mai mare sau mai mică decât cartea curentă.",
+  "higher": "Mai mare",
+  "lower": "Mai mic",
+  "cardsEqual": "Cartile sunt egale!",
+  "correctGuess": "Corect!",
+  "incorrectGuess": "Greșit. Mai încearcă o dată!",
+  "rulesTitle": "High and Low: Regulile jocului",
+  "objective": "Obiectivul",
+  "objectiveText": "Ghicește dacă următoarea carte este mai mare sau mai mică decât cartea curentă.",
+  "howToPlay": "Cum se joacă",
+  "rule1": "Se va trage o nouă carte.",
+  "rule2": "Ghicește dacă următoarea carte este mai mare sau mai mică decât cartea curentă.",
+  "rule3": "Dacă ghicesti corect, vei putea continua să ghicești.",
+  "rule4": "Dacă ghicesti greșit, jocul se va termina.",
+  "cardRankings": "Ierarhia cărților",
+  "cardRankingsText": "De la cel mai mic la cel mai mare: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A.",
+  "note": "Notă",
+  "noteText": "În acest joc, Asul este considerat o carte mare."
+}

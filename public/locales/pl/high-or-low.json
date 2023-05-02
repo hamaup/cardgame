@@ -1,0 +1,23 @@
+{
+  "title": "Gra w Hi-Lo",
+  "description": "Zagraj w grę Hi-Lo! Zgadnij, czy następna karta będzie wyższa czy niższa niż aktualna karta! Spróbuj szczęścia, odgadując losowo wybrane liczby kart.",
+  "welcomeMessage": "Witaj! Zagrajmy w grę Hi-Lo!",
+  "guessNextCard": "Zgadnij, czy następna karta będzie wyższa czy niższa niż aktualna karta.",
+  "higher": "Wyższa",
+  "lower": "Niższa",
+  "cardsEqual": "Karty są równe!",
+  "correctGuess": "Poprawna odpowiedź!",
+  "incorrectGuess": "Niepoprawna odpowiedź. Spróbuj ponownie.",
+  "rulesTitle": "Zasady gry w Hi-Lo",
+  "objective": "Cel",
+  "objectiveText": "Zgadnij, czy następna karta będzie wyższa czy niższa niż aktualna karta.",
+  "howToPlay": "Jak grać",
+  "rule1": "Losowana jest nowa karta.",
+  "rule2": "Zgadnij, czy następna karta będzie wyższa czy niższa niż aktualna karta.",
+  "rule3": "Jeśli zgadniesz poprawnie, możesz kontynuować zgadywanie.",
+  "rule4": "Jeśli się pomyliłeś, gra się kończy.",
+  "cardRankings": "Kolejność kart",
+  "cardRankingsText": "Kolejność kart od najniższej do najwyższej: 2, 3, 4, 5, 6, 7, 8, 9, 10, Walet, Dama, Król, As.",
+  "note": "Uwaga",
+  "noteText": "W tej grze As jest uważany za wyższą kartę."
+}

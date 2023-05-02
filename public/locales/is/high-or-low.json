@@ -1,0 +1,23 @@
+{
+  "title": "Hái og Lægi",
+  "description": "Spilum Hái og Lægi! Þetta er leikur þar sem þú reynir heppnina á því að giska á hvort næsta spil sé hærra eða lægra en núverandi spil! Reynu heppnina þína í að giska á gildi af handahófi dragna spili.",
+  "welcomeMessage": "Velkomin í Hái og Lægi! Leikurinn þar sem þú getur reynt heppnina á þér!",
+  "guessNextCard": "Giskaðu á hvort næsta spil verði hærra eða lægra en núverandi spil.",
+  "higher": "Hærra",
+  "lower": "Lægra",
+  "cardsEqual": "Spilin eru eins!",
+  "correctGuess": "Rétt!",
+  "incorrectGuess": "Rangt! Reyndu aftur.",
+  "rulesTitle": "Hái og Lægi: Reglur",
+  "objective": "Markmið",
+  "objectiveText": "Giska á gildi næsta spils hærra eða lægra en núverandi spil.",
+  "howToPlay": "Leikreglur",
+  "rule1": "Nýtt spil er dragnað.",
+  "rule2": "Giskaðu á hvort næsta spil verði hærra eða lægra en núverandi spil.",
+  "rule3": "Ef gisk er rétt, getur þú haldið áfram að giska.",
+  "rule4": "Ef gisk er rangt, þá er leikurinn búinn.",
+  "cardRankings": "Spilunum raðað frá lægsta til hæsta:",
+  "cardRankingsText": "2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A.",
+  "note": "Athugið",
+  "noteText": "Í þessum leik eru Ásar taldir vera hærri spil en Konungarnir."
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Zbirka kartica",
+  "description": "Uživajte u različitim igrama s karticama!",
+  "game": {
+    "blackjack": "Blackjack",
+    "guess-the-card": "Pogodi kartu",
+    "high-or-low": "Visoko ili nisko",
+    "memory-game": "Igra pamćenja"
+  }
+}

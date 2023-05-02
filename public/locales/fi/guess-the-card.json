@@ -1,0 +1,21 @@
+{
+  "title": "Arvaa kortti",
+  "description": "Arvaa kortin arvo tässä pelissä! Arvaa, mikä kortti tulee seuraavaksi ja katso, onko onnesi mukana!",
+  "welcomeMessage": "Tervetuloa! Pelataanpa Arvaa kortti -peliä!",
+  "placeholder": "Arvaa kortin arvo...",
+  "guess": "Arvaa",
+  "correctGuess": "Oikein arvattu! Onneksi olkoon!",
+  "incorrectGuess": "Väärä vastaus! Kortin arvo oli {{value}}.",
+  "rulesTitle": "Säännöt",
+  "objective": "Tavoite",
+  "objectiveText": "Arvaa seuraavan kortin arvo.",
+  "howToPlay": "Peliohjeet",
+  "rule1": "Paina numeroita 1–13 arvatakseksesi kortin arvoa.",
+  "rule2": "Kun olet arvannut, näet seuraavan kortin arvon.",
+  "rule3": "Oikean vastauksen antaneet voittavat!",
+  "rule4": "Yritä, kunnes arvaat oikein.",
+  "cardRankings": "Korttien arvojärjestys",
+  "cardRankingsText": "Kortit on järjestetty arvojärjestykseen numerosta 1 (ässä) 13:een (kuningas).",
+  "note": "Huomautus",
+  "noteText": "Tämä on vain peli, joten siihen ei liity pisteitä tai rangaistuksia. Hauskanpidon vuoksi vain!"
+  }

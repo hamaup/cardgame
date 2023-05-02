@@ -1,0 +1,21 @@
+{
+  "title": "Gjett kortet",
+  "description": "Spill gjettelek med kort! Prøv lykken ved å gjette på verdien av et tilfeldig trukket kort.",
+  "welcomeMessage": "Velkommen! La oss spille gjettelek med kort!",
+  "placeholder": "Skriv inn din gjetning...",
+  "guess": "Gjett",
+  "correctGuess": "Korrekt! Gratulerer!",
+  "incorrectGuess": "Feil! Riktig verdi var {{value}}.",
+  "rulesTitle": "Regler",
+  "objective": "Mål",
+  "objectiveText": "Gjette verdien av et tilfeldig trukket kort.",
+  "howToPlay": "Slik spiller du",
+  "rule1": "Trykk på knappene 1-13 og gjett verdien på kortet.",
+  "rule2": "Kortet vises etter at du har gjettet verdien.",
+  "rule3": "Du vinner hvis gjetningen din er riktig!",
+  "rule4": "Fortsett å prøve til du får riktig svar.",
+  "cardRankings": "Kortrangering",
+  "cardRankingsText": "Kortene er rangert fra 1 (ess) til 13 (konge).",
+  "note": "Merk",
+  "noteText": "Dette spillet har ingen poeng eller straff. Det er bare for moro skyld!"
+}

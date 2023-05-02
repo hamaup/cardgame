@@ -1,0 +1,37 @@
+.memory_card_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  max-width: 600px;
+  /* 90px (card width) * 5 (cards per row) + 20px (gap) * 4 */
+  margin: 0 auto;
+}
+
+.card {
+  width: 80px;
+  height: 115px;
+  /* other styles */
+}
+
+.card_image {
+  width: 100%;
+  height: 100%;
+  /* other styles */
+}
+
+@media screen and (max-width: 640px) {
+  .memory_card_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .card {
+    width: 50px;
+    height: 70px;
+  }
+}

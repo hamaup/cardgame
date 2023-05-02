@@ -1,0 +1,23 @@
+{
+  "title": "Alto y Bajo",
+  "description": "¡Juguemos Alto y Bajo! Es un juego donde tienes que adivinar si la siguiente carta es más alta o más baja que la actual. ¡Prueba tu suerte adivinando el número de carta que aparecerá al azar!",
+  "welcomeMessage": "¡Bienvenido a Alto y Bajo!",
+  "guessNextCard": "Adivina si la siguiente carta será más alta o más baja que la actual.",
+  "higher": "Más alta",
+  "lower": "Más baja",
+  "cardsEqual": "¡Las cartas son iguales!",
+  "correctGuess": "¡Adivinaste!",
+  "incorrectGuess": "Fallaste. ¡Inténtalo de nuevo!",
+  "rulesTitle": "Alto y Bajo: Reglas del juego",
+  "objective": "Objetivo",
+  "objectiveText": "Adivinar si la siguiente carta será más alta o más baja que la actual.",
+  "howToPlay": "Cómo jugar",
+  "rule1": "Se sacará una nueva carta.",
+  "rule2": "Adivina si la siguiente carta será más alta o más baja que la actual.",
+  "rule3": "Si adivinas correctamente, podrás seguir adivinando.",
+  "rule4": "Si fallas, el juego termina.",
+  "cardRankings": "Rango de cartas",
+  "cardRankingsText": "El rango de cartas va desde 2 (la más baja) hasta A (la más alta).",
+  "note": "Nota",
+  "noteText": "En este juego, se considera que el As es la carta más alta."
+}

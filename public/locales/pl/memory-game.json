@@ -1,0 +1,26 @@
+{
+  "title": "Memory",
+  "description": "Zagraj w Memory i odkryj pary kart ze zidentyfikowanymi obrazkami. To wspaniała gra do treningu koncentracji i pamięci. Spróbuj pobić swój najlepszy czas i osiągnąć najlepszy wynik!",
+  "welcomeMessage": "Witaj! Zagrajmy w Memory!",
+  "winMessage": "Gratulacje! Znalazłeś wszystkie pary!",
+  "start": "Start",
+  "time": "Czas",
+  "moves": "Ruchy",
+  "pairs": "Pary",
+  "timeUp": "Czas minął!",
+  "congratulations": "Gratulacje!",
+  "gameComplete": "Ukończono grę!",
+  "reset": "Reset",
+  "rulesTitle": "Zasady Memory",
+  "objective": "Cel",
+  "objectiveText": "Celem gry jest znalezienie wszystkich par ukrytych kart w ograniczonym czasie.",
+  "howToPlay": "Jak grać",
+  "rule1": "Gra rozpoczyna się od planszy kart ułożonych przodem do dołu.",
+  "rule2": "Gracz odwraca dwie karty na raz.",
+  "rule3": "Jeśli karty są identyczne, są one liczone jako para i gracz kontynuuje turę.",
+  "rule4": "Jeśli karty się nie zgadzają, zostają ponownie odwrócone liczbą twarzą do dołu.",
+  "rule5": "Gra kończy się, gdy wszystkie pary zostaną odkryte.",
+  "note": "Uwaga",
+  "noteText": "Memory jest wspaniałą grą do treningu koncentracji i krótkotrwałej pamięci. Spróbuj pobić swój najlepszy czas i osiągnąć najlepszy wynik!"
+}
+```

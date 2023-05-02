@@ -1,0 +1,23 @@
+{
+  "title": "Aukščiau ar žemiau",
+  "description": "Žaidžiame Aukščiau ar žemiau! Spėkite, ar kita korta bus aukštesnė ar žemesnė už dabartinę! Išbandykite savo sėkmę spėdami atsitiktinai ištrauktos kortos skaičių.",
+  "welcomeMessage": "Sveiki atvykę! Žaidžiame Aukščiau ar žemiau!",
+  "guessNextCard": "Spėkite, ar kita korta bus aukštesnė ar žemesnė už dabartinę kortą.",
+  "higher": "Aukščiau",
+  "lower": "Žemiau",
+  "cardsEqual": "Kortos lygios!",
+  "correctGuess": "Teisingai!",
+  "incorrectGuess": "Neteisingai. Pabandykite dar kartą.",
+  "rulesTitle": "Aukščiau ar žemiau: Taisyklės",
+  "objective": "Tikslo apibrėžimas",
+  "objectiveText": "Spėti, ar kita korta bus aukštesnė ar žemesnė už dabartinę kortą.",
+  "howToPlay": "Kaip žaisti",
+  "rule1": "Ištraukiama nauja korta.",
+  "rule2": "Spėkite, ar kita korta bus aukštesnė ar žemesnė už dabartinę kortą.",
+  "rule3": "Jeigu spėjimas teisingas, galite tęsti toliau.",
+  "rule4": "Jeigu spėjimas neteisingas, žaidimas baigiasi.",
+  "cardRankings": "Kortų reitingas",
+  "cardRankingsText": "Nuo žemiausio iki aukščiausio: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A.",
+  "note": "Pastaba",
+  "noteText": "Šiame žaidime aukščiausia korta yra Tuzas."
+}

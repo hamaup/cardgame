@@ -1,0 +1,23 @@
+{
+  "title": "Høj eller lav",
+  "description": "Spil Høj eller Lav! Gæt om næste kort er højere eller lavere end det aktuelle kort. Prøv lykken og gæt tallet på et tilfældigt trukket kort.",
+  "welcomeMessage": "Velkommen til Høj eller Lav!",
+  "guessNextCard": "Gæt om næste kort er højere eller lavere end det aktuelle kort.",
+  "higher": "Højere",
+  "lower": "Lavere",
+  "cardsEqual": "Kortene er ens!",
+  "correctGuess": "Korrekt gæt!",
+  "incorrectGuess": "Forkert gæt. Prøv igen.",
+  "rulesTitle": "Høj eller Lav: Regler",
+  "objective": "Mål",
+  "objectiveText": "Gæt om næste kort er højere eller lavere end det aktuelle kort.",
+  "howToPlay": "Sådan spiller du",
+  "rule1": "Et nyt kort trækkes.",
+  "rule2": "Gæt om næste kort er højere eller lavere end det aktuelle kort.",
+  "rule3": "Hvis du gætter rigtigt, kan du fortsætte med at gætte.",
+  "rule4": "Hvis du gætter forkert, er spillet slut.",
+  "cardRankings": "Kortværdier",
+  "cardRankingsText": "Fra laveste til højeste: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A.",
+  "note": "Bemærk",
+  "noteText": "I dette spil betragtes esset som højt."
+}

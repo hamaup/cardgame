@@ -1,0 +1,23 @@
+{
+  "title": "Høyere eller lavere",
+  "description": "Spill Høyere eller lavere og gjett om det neste kortet som trekkes er høyere eller lavere enn det nåværende kortet! Prøv lykken din med å gjette det tilfeldige kortets verdi.",
+  "welcomeMessage": "Velkommen til Høyere eller lavere!",
+  "guessNextCard": "Gjett om det neste kortet vil være høyere eller lavere enn det nåværende kortet.",
+  "higher": "Høyere",
+  "lower": "Lavere",
+  "cardsEqual": "Kortene er like!",
+  "correctGuess": "Korrekt!",
+  "incorrectGuess": "Feil. Prøv igjen!",
+  "rulesTitle": "Regler for Høyere eller lavere",
+  "objective": "Mål",
+  "objectiveText": "Gjett om det neste kortet vil være høyere eller lavere enn det nåværende kortet.",
+  "howToPlay": "Slik spiller du",
+  "rule1": "Et nytt kort trekkes.",
+  "rule2": "Gjett om det neste kortet vil være høyere eller lavere enn det nåværende kortet.",
+  "rule3": "Hvis gjettet ditt er riktig, kan du fortsette å gjette.",
+  "rule4": "Hvis gjettet ditt er feil, er spillet over.",
+  "cardRankings": "Kortverdier",
+  "cardRankingsText": "Kortverdier rangeres fra lavest til høyest: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A.",
+  "note": "Merk",
+  "noteText": "I dette spillet anses Ess som høyere enn Konge."
+}

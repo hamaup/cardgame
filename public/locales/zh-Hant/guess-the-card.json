@@ -1,0 +1,21 @@
+{
+  "title": "猜牌遊戲",
+  "description": "猜牌遊戲！試試你的運氣，猜出隨機抽出的牌的數值。",
+  "welcomeMessage": "歡迎來到猜牌遊戲！",
+  "placeholder": "輸入你的猜測...",
+  "guess": "猜",
+  "correctGuess": "恭喜你！猜對了！",
+  "incorrectGuess": "猜錯了！正確的數值是{{value}}。",
+  "rulesTitle": "遊戲規則",
+  "objective": "目標",
+  "objectiveText": "猜出隨機抽出的牌的數值。",
+  "howToPlay": "遊戲玩法",
+  "rule1": "點擊1到13之間的按鈕，猜測牌的數值。",
+  "rule2": "猜測後，顯示牌面。",
+  "rule3": "如果猜對了，你贏了！",
+  "rule4": "持續猜，直到猜對為止。",
+  "cardRankings": "牌面數值",
+  "cardRankingsText": "牌面數值從1（Ace）到13（King）按順序排列。",
+  "note": "注意",
+  "noteText": "本遊戲沒有積分或懲罰，僅供娛樂！"
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Kaartspellen",
+  "description": "Geniet van verschillende kaartspellen!",
+  "game": {
+    "blackjack": "Blackjack",
+    "guess-the-card": "Raad de kaart",
+    "high-or-low": "Hoog of laag",
+    "memory-game": "Geheugenspel"
+  },
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Arva kaart",
+  "description": "Proovi oma õnne ja arva, milline kaart tuleb! See on juhuslikult valitud kaardi väärtuse arvamine. Lase oma osavusel selles mängus paista!",
+  "welcomeMessage": "Tere tulemast! Mängi Arva kaart mängu!",
+  "placeholder": "Sisesta oma arvamus...",
+  "guess": "Arvamine",
+  "correctGuess": "Õige vastus! Õnnitleme!",
+  "incorrectGuess": "Vale vastus! Õige vastus oli {{value}}.",
+  "rulesTitle": "Reeglid",
+  "objective": "Eesmärk",
+  "objectiveText": "Juhuslikult valitud kaardi väärtuse arvamine.",
+  "howToPlay": "Mängureeglid",
+  "rule1": "Klõpsa 1-13 nuppu, et ennustada kaardi väärtust.",
+  "rule2": "Pärast arvamust kuvatakse kaart.",
+  "rule3": "Kui arvamused on õiged, oled võitnud!",
+  "rule4": "Jätka proovimist, kuni arvad õigesti.",
+  "cardRankings": "Kaartide paremusjärjestus",
+  "cardRankingsText": "Kaardid on järjestatud väärtuse järgi 1 (äss) kuni 13 (kuningas).",
+  "note": "Märkus",
+  "noteText": "Selles mängus pole punkte ega trahve. See on lihtsalt lõbus mäng!"
+  }

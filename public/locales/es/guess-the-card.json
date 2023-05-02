@@ -1,0 +1,21 @@
+{
+  "title": "Adivina la carta",
+  "description": "¡Juega a adivinar la carta! Adivina el valor de una carta al azar y pon a prueba tu suerte.",
+  "welcomeMessage": "¡Bienvenido! ¡Juguemos a adivinar la carta!",
+  "placeholder": "Escribe tu adivinanza...",
+  "guess": "Adivinar",
+  "correctGuess": "¡Respuesta correcta! ¡Felicidades!",
+  "incorrectGuess": "¡Respuesta incorrecta! El valor correcto era {{value}}.",
+  "rulesTitle": "Reglas",
+  "objective": "Objetivo",
+  "objectiveText": "Adivinar el valor de una carta al azar.",
+  "howToPlay": "Cómo jugar",
+  "rule1": "Haz clic en los botones del 1 al 13 y adivina el valor de la carta.",
+  "rule2": "Una vez que hagas tu adivinanza, se mostrará la carta.",
+  "rule3": "Si tu adivinanza es correcta, ganarás.",
+  "rule4": "Sigue intentándolo hasta que aciertes.",
+  "cardRankings": "Rangos de cartas",
+  "cardRankingsText": "Las cartas están clasificadas del 1 (as) al 13 (rey).",
+  "note": "Nota",
+  "noteText": "Este juego no tiene puntos ni penalizaciones. ¡Juega solo por diversión!"
+  }

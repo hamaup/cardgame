@@ -1,0 +1,23 @@
+{
+  "title": "Plus ou Moins",
+  "description": "Jouons au jeu du Plus ou Moins ! Devinez si la carte suivante est plus grande ou plus petite que la carte actuelle pour gagner. Essayez votre chance pour deviner la carte tirée au hasard.",
+  "welcomeMessage": "Bienvenue ! Jouons au jeu du Plus ou Moins !",
+  "guessNextCard": "Devinez si la carte suivante est plus grande ou plus petite que la carte actuelle.",
+  "higher": "Plus grande",
+  "lower": "Plus petite",
+  "cardsEqual": "Les cartes sont égales !",
+  "correctGuess": "Correct !",
+  "incorrectGuess": "Incorrect. Essayez encore.",
+  "rulesTitle": "Plus ou Moins - Règles du jeu",
+  "objective": "Objectif",
+  "objectiveText": "Devinez si la carte suivante est plus grande ou plus petite que la carte actuelle.",
+  "howToPlay": "Comment jouer",
+  "rule1": "Une nouvelle carte est tirée.",
+  "rule2": "Devinez si la carte suivante est plus grande ou plus petite que la carte actuelle.",
+  "rule3": "Si vous avez deviné correctement, vous pouvez continuer à deviner.",
+  "rule4": "Si vous avez deviné incorrectement, c'est game over.",
+  "cardRankings": "Classement des cartes",
+  "cardRankingsText": "Du plus bas au plus haut : 2, 3, 4, 5, 6, 7, 8, 9, 10, Valet, Dame, Roi, As.",
+  "note": "Remarque",
+  "noteText": "Dans ce jeu, l'As est considéré comme une carte haute."
+}

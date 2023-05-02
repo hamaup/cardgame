@@ -1,0 +1,21 @@
+{
+  "title": "Zgadnij kartę",
+  "description": "Zagraj w grę Zgadnij kartę! Spróbuj odgadnąć, jaką kartę wylosowano! ",
+  "welcomeMessage": "Witaj! Zagrajmy w Zgadnij kartę!",
+  "placeholder": "Wprowadź swoje przypuszczenia...",
+  "guess": "Zgadnij",
+  "correctGuess": "Poprawna odpowiedź! Gratulacje!",
+  "incorrectGuess": "Błędna odpowiedź! Prawidłową wartością jest {{value}}.",
+  "rulesTitle": "Zasady",
+  "objective": "Cel",
+  "objectiveText": "Odgadnięcie wartości losowo wybranej karty.",
+  "howToPlay": "Jak grać",
+  "rule1": "Naciśnij przycisk od 1 do 13, aby wytypować wartość karty.",
+  "rule2": "Po dokonaniu wyboru karta zostanie wyświetlona.",
+  "rule3": "Wygrasz, jeśli odgadniesz poprawną wartość karty.",
+  "rule4": "Kontynuuj grę, aż odgadniesz poprawną wartość karty.",
+  "cardRankings": "Rangi kart",
+  "cardRankingsText": "Karty są klasyfikowane w kolejności od 1 (Asa) do 13 (Króla).",
+  "note": "Uwaga",
+  "noteText": "Ta gra nie ma punktacji ani kar. Graj dla zabawy!"
+}

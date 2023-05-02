@@ -1,0 +1,21 @@
+{
+  "title": "Đoán thẻ bài",
+  "description": "Chơi trò chơi đoán thẻ bài! Hãy đoán giá trị của thẻ được rút ngẫu nhiên!",
+  "welcomeMessage": "Chào mừng! Hãy chơi trò chơi đoán thẻ bài với chúng tôi!",
+  "placeholder": "Nhập dự đoán của bạn...",
+  "guess": "Dự đoán",
+  "correctGuess": "Chính xác! Chúc mừng!",
+  "incorrectGuess": "Sai rồi! Giá trị đúng là {{value}}.",
+  "rulesTitle": "Quy tắc",
+  "objective": "Mục tiêu",
+  "objectiveText": "Đoán giá trị của một thẻ bài.",
+  "howToPlay": "Cách chơi",
+  "rule1": "Nhấn vào các nút từ 1 đến 13 và đoán giá trị của thẻ.",
+  "rule2": "Sau khi dự đoán giá trị, thẻ bài sẽ được hiển thị.",
+  "rule3": "Nếu dự đoán đúng, bạn sẽ thắng!",
+  "rule4": "Hãy tiếp tục đoán cho đến khi đoán đúng.",
+  "cardRankings": "Xếp hạng thẻ",
+  "cardRankingsText": "Thẻ được xếp hạng từ 1 (Át) đến 13 (K).",
+  "note": "Chú ý",
+  "noteText": "Trò chơi này không có điểm số hoặc hình phạt. Nó chỉ là một trò chơi để giải trí!"
+}

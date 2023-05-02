@@ -1,0 +1,23 @@
+{
+  "title": "High-Low",
+  "description": "Hãy chơi High-Low! Đây là một trò chơi đoán xem lá bài tiếp theo có lớn hơn hay nhỏ hơn lá bài hiện tại! Hãy thử vận may của bạn bằng cách đoán được số lá bài được rút ngẫu nhiên.",
+  "welcomeMessage": "Chào mừng bạn đến với High-Low!",
+  "guessNextCard": "Hãy đoán xem lá bài tiếp theo có lớn hơn hay nhỏ hơn lá bài hiện tại!",
+  "higher": "Lớn hơn",
+  "lower": "Nhỏ hơn",
+  "cardsEqual": "Hai lá bài giống nhau!",
+  "correctGuess": "Đúng rồi!",
+  "incorrectGuess": "Sai rồi. Hãy thử lại lần nữa.",
+  "rulesTitle": "High-Low: Quy tắc",
+  "objective": "Mục tiêu",
+  "objectiveText": "Đoán xem lá bài tiếp theo có lớn hơn hay nhỏ hơn lá bài hiện tại.",
+  "howToPlay": "Cách chơi",
+  "rule1": "Một lá bài mới sẽ được rút.",
+  "rule2": "Hãy đoán xem lá bài tiếp theo có lớn hơn hay nhỏ hơn lá bài hiện tại.",
+  "rule3": "Nếu đoán đúng, bạn có thể tiếp tục đoán.",
+  "rule4": "Nếu đoán sai, trò chơi kết thúc.",
+  "cardRankings": "Xếp hạng các lá bài",
+  "cardRankingsText": "Từ thấp đến cao: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A.",
+  "note": "Lưu ý",
+  "noteText": "Trong trò chơi này, Át được coi là lá bài cao nhất."
+}

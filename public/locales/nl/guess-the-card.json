@@ -1,0 +1,21 @@
+{
+  "title": "Raad de kaart",
+  "description": "Speel het spel Raad de kaart! Probeer te voorspellen welke kaart er getrokken zal worden en raad de waarde van de kaart om te zien of je geluk hebt!",
+  "welcomeMessage": "Welkom! Laten we het spel Raad de kaart spelen!",
+  "placeholder": "Voer je voorspelling in...",
+  "guess": "Raad",
+  "correctGuess": "Correct! Gefeliciteerd!",
+  "incorrectGuess": "Incorrect! De juiste waarde was {{value}}.",
+  "rulesTitle": "Regels",
+  "objective": "Doel",
+  "objectiveText": "Probeer te voorspellen welke waarde de getrokken kaart heeft.",
+  "howToPlay": "Speluitleg",
+  "rule1": "Klik op een knop van 1 tot 13 om een waarde te voorspellen voor de kaart.",
+  "rule2": "Nadat je hebt geraden, wordt de kaart getoond.",
+  "rule3": "Als je het juist hebt, win je!",
+  "rule4": "Blijf raden tot je het goed hebt.",
+  "cardRankings": "Ranglijst van kaarten",
+  "cardRankingsText": "Kaarten worden gerangschikt van 1 (aas) tot 13 (koning).",
+  "note": "Opmerking",
+  "noteText": "Er zijn geen punten of straffen in dit spel. Het is alleen maar voor de lol!"
+}

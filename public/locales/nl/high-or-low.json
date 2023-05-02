@@ -1,0 +1,23 @@
+{
+  "title":"Higher or Lower",
+  "description": "Speel Higher or Lower! Raad of de volgende kaart hoger of lager is dan de huidige kaart! Probeer te gokken op het willekeurige getrokken kaartnummer.",
+  "welcomeMessage": "Welkom bij Higher or Lower!",
+  "guessNextCard": "Raad of de volgende kaart hoger of lager is dan de huidige kaart.",
+  "higher": "Hoger",
+  "lower": "Lager",
+  "cardsEqual": "Kaarten zijn gelijk!",
+  "correctGuess": "Correct!",
+  "incorrectGuess": "Fout! Probeer opnieuw.",
+  "rulesTitle": "Spelregels voor Higher or Lower",
+  "objective": "Doel",
+  "objectiveText": "Raad of de volgende kaart hoger of lager is dan de huidige kaart.",
+  "howToPlay": "Spelregels",
+  "rule1": "Er wordt een nieuwe kaart getrokken.",
+  "rule2": "Raad of de volgende kaart hoger of lager is dan de huidige kaart.",
+  "rule3": "Als je het goed hebt, kun je doorgaan met raden.",
+  "rule4": "Als je het fout hebt, is het spel voorbij.",
+  "cardRankings": "Kaarthiërarchie",
+  "cardRankingsText": "Van laag naar hoog: 2, 3, 4, 5, 6, 7, 8, 9, 10, Boer, Vrouw, Koning, Aas.",
+  "note": "Opmerking",
+  "noteText": "Dit spel heeft geen score of straf, het is alleen voor entertainment!"
+}

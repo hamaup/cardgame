@@ -1,0 +1,10 @@
+{
+  "title": "Kolekcia kariet",
+  "description": "Zábava s rôznymi kartovými hrami!",
+  "game": {
+    "blackjack": "Blackjack",
+    "guess-the-card": "Uhádni kartu",
+    "high-or-low": "Vyššie alebo nižšie",
+    "memory-game": "Hra s kartami na zapamätanie"
+  }
+}

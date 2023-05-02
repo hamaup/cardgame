@@ -1,0 +1,10 @@
+{
+  "title": "Sbírka karetních her",
+  "description": "Užijte si různé karetní hry!",
+  "game": {
+    "blackjack": "Blackjack",
+    "guess-the-card": "Hádej karty",
+    "high-or-low": "Vyšší nebo nižší",
+    "memory-game": "Hra na paměť"
+  }
+}

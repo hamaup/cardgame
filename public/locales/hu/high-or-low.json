@@ -1,0 +1,23 @@
+{
+  "title":"Magas-alacsony",
+  "description": "Játsszunk Magas-alacsony játékot! Tippeljük meg, hogy a következő kártya magasabb vagy alacsonyabb lesz-e, mint a jelenlegi kártya! Próbáld ki szerencsédet, és találd ki az egy véletlenszerűen kiválasztott kártya értékét.",
+  "welcomeMessage": "Üdvözlünk a Magas-alacsony játékban!",
+  "guessNextCard": "Tippelj arra, hogy a következő kártya magasabb vagy alacsonyabb lesz-e, mint a jelenlegi kártya.",
+  "higher": "Magasabb",
+  "lower": "Alacsonyabb",
+  "cardsEqual": "A két kártya egyenlő!",
+  "correctGuess": "Gratulálunk, helyes tipp!",
+  "incorrectGuess": "Hibás tipp, próbáld újra!",
+  "rulesTitle": "Magas-alacsony: Szabályok",
+  "objective": "Cél",
+  "objectiveText": "Tippeld meg, hogy a következő kártya magasabb vagy alacsonyabb lesz-e, mint a jelenlegi kártya.",
+  "howToPlay": "Játékmenet",
+  "rule1": "Húzz egy új kártyát.",
+  "rule2": "Tippeld meg, hogy a következő kártya magasabb vagy alacsonyabb lesz-e, mint a jelenlegi kártya.",
+  "rule3": "Ha helyesen tippelsz, folytathatod a játékot.",
+  "rule4": "Ha rosszul tippelsz, vége a játéknak.",
+  "cardRankings": "Kártya rangsor",
+  "cardRankingsText": "A legalacsonyabbtól a legmagasabbig: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, Ász.",
+  "note": "Megjegyzés",
+  "noteText": "Ez a játék csupán szórakoztatás céljából szolgál, nincsenek pontok vagy büntetések."
+}

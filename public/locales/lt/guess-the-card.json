@@ -1,0 +1,21 @@
+{
+  "title": "Atspėk kortelę",
+  "description": "Žaidimas, kuriame turite atspėti kortelės reikšmę! Pamėginkite savo laimę ir spėkite, kokia kortelė buvo atsitrenkta.",
+  "welcomeMessage": "Sveiki atvykę! Žaiskime atspėk kortelę!",
+  "placeholder": "Įveskite savo spėjimą...",
+  "guess": "Spėjimas",
+  "correctGuess": "Atspėjote teisingai! Sveikiname!",
+  "incorrectGuess": "Atspėjote neteisingai! Teisinga kortelė buvo {{value}}.",
+  "rulesTitle": "Taisyklės",
+  "objective": "Tikslas",
+  "objectiveText": "Atspėkite atsitiktinai pasirinktos kortelės reikšmę.",
+  "howToPlay": "Kaip žaisti",
+  "rule1": "Spustelėkite skaičių nuo 1 iki 13 ir spėkite kortelės reikšmę.",
+  "rule2": "Po spėjimo, bus rodoma kortelė.",
+  "rule3": "Jei atspėjote, laimėjote!",
+  "rule4": "Tęskite bandymus, kol atspėsite.",
+  "cardRankings": "Kortelių reitingas",
+  "cardRankingsText": "Kortelės yra reitinguojamos nuo 1 (žemutinė) iki 13 (karaliaus).",
+  "note": "Pastaba",
+  "noteText": "Šis žaidimas neturi taškų ar baudų. Jis skirtas tik linksmumui!"
+}

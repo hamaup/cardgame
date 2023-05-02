@@ -1,0 +1,11 @@
+{
+  "title": "カードゲーム集",
+  "description": "さまざまなカードゲームを楽しもう！",
+  "game": {
+    "blackjack": "ブラックジャック",
+    "guess-the-card": "カードを当てる",
+    "high-or-low": "高いか低いか",
+    "memory-game": "記憶ゲーム"
+  }
+}
+

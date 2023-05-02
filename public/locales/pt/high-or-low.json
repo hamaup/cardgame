@@ -1,0 +1,23 @@
+{
+  "title": "Alto ou Baixo",
+  "description": "Jogue Alto ou Baixo! Adivinhe se a próxima carta é maior ou menor que a atual! Teste a sua sorte adivinhando o número da carta retirada aleatoriamente.",
+  "welcomeMessage": "Bem-vindo(a)! Vamos jogar Alto ou Baixo!",
+  "guessNextCard": "Adivinhe se a próxima carta será maior ou menor que a atual.",
+  "higher": "Alto",
+  "lower": "Baixo",
+  "cardsEqual": "As cartas são iguais!",
+  "correctGuess": "Parabéns, você acertou!",
+  "incorrectGuess": "Que pena, você errou. Tente novamente.",
+  "rulesTitle": "Alto ou Baixo: Regras",
+  "objective": "Objetivo",
+  "objectiveText": "Adivinhar se a próxima carta será maior ou menor que a atual.",
+  "howToPlay": "Como Jogar",
+  "rule1": "Uma nova carta é retirada.",
+  "rule2": "Adivinhe se a próxima carta será maior ou menor que a atual.",
+  "rule3": "Se você acertar, poderá continuar adivinhando.",
+  "rule4": "Se você errar, o jogo terminará.",
+  "cardRankings": "Classificação das Cartas",
+  "cardRankingsText": "De menor para maior: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A.",
+  "note": "Observação",
+  "noteText": "Neste jogo, o Ás é considerado como alto."
+}

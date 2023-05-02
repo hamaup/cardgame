@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans bg-gray-100;
+}
+
+.header {
+  @apply bg-blue-500 py-2 px-3 shadow-md;
+  width: 100%;
+}
+
+.navigation {
+  @apply flex justify-between items-center;
+}
+
+.header-title {
+  @apply text-xl font-bold text-white;
+}
+
+.header-language-selector {
+  @apply font-bold flex items-center;
+}
+
+.header-language-selector select {
+  @apply ml-2;
+}
+
+.container {
+  @apply max-w-screen-lg mx-auto w-full px-5 flex flex-col items-center justify-center;
+}
+
+.main-content {
+  @apply max-w-screen-lg mx-auto py-4 flex flex-col items-center flex-grow;
+}
+
+.game-title {
+  @apply text-xl font-extrabold text-green-800 tracking-tight mb-4;
+}
+
+.message-container {
+  @apply bg-white rounded-md p-3 flex justify-center items-center mb-3 border border-gray-300 shadow-md;
+  width: 100%;
+}
+
+.message-container #message {
+  @apply text-base font-semibold text-black;
+}
+
+.game-container {
+  @apply flex flex-col items-center justify-center text-white bg-green-800 p-5 rounded-lg shadow-lg relative flex-grow flex-shrink-0;
+  width: 100%;
+  z-index: 1;
+}
+
+.buttons {
+  @apply flex justify-center mb-2;
+}
+
+button {
+  @apply text-lg mx-1 py-1 px-2 border-none rounded bg-green-700 text-white cursor-pointer transition-colors duration-300;
+}
+
+button:hover {
+  @apply bg-green-900;
+}
+
+#message {
+  @apply text-lg text-white;
+}
+
+.rules-container {
+  @apply bg-white rounded-lg p-5 mt-5 shadow-md border border-gray-300 text-lg leading-relaxed flex-shrink-0;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.rule-title {
+  @apply text-2xl font-bold mb-5;
+}
+
+.rule-item {
+  @apply mb-2;
+}
+
+.card-display {
+  @apply flex items-center justify-center w-40 h-56 bg-cover bg-center bg-no-repeat;
+}
+
+.card_image {
+  @apply w-full h-full object-contain;
+}
+
+.input-container {
+  @apply mt-8 mb-4;
+}
+
+.value-button {
+  @apply text-lg m-3 py-2 px-4 border-none rounded-full bg-green-700 text-white cursor-pointer transition-colors duration-300 shadow-lg;
+}
+
+.value-button:hover {
+  @apply bg-green-900;
+}

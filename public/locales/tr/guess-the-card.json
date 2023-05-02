@@ -1,0 +1,21 @@
+{
+  "title": "Kart Tahmin Etme",
+  "description": "Kart tahmin oyununa hoş geldiniz! Rastgele seçilen bir kartın değerini tahmin edin ve şansınızı deneyin.",
+  "welcomeMessage": "Hoşgeldiniz! Kart tahmin oyununa davetlisiniz!",
+  "placeholder": "Tahmininizi girin...",
+  "guess": "Tahmin",
+  "correctGuess": "Tebrikler, doğru tahmin!",
+  "incorrectGuess": "Maalesef yanlış cevap verdiniz. Doğru cevap {{value}}.",
+  "rulesTitle": "Kurallar",
+  "objective": "Hedef",
+  "objectiveText": "Rastgele seçilen bir kartın değerini tahmin etmek.",
+  "howToPlay": "Nasıl Oynanır",
+  "rule1": "1-13 arasındaki düğmeleri kullanarak bir kartın değerini tahmin edin.",
+  "rule2": "Tahmininizin ardından kart gösterilecektir.",
+  "rule3": "Tahmininiz doğruysa, kazandınız!",
+  "rule4": "Doğru cevabı bulana kadar denemeye devam edin.",
+  "cardRankings": "Kart Sıralaması",
+  "cardRankingsText": "Kartlar 1 (As) ile 13 (Kral) arasında sıralanmıştır.",
+  "note": "Not",
+  "noteText": "Bu oyunun puan veya cezası yoktur. Sadece eğlence amaçlıdır!"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Errate die Karte",
+  "description": "Errate die Karte-Spiel! Rate die Wertigkeit der zufällig gezogenen Karten und teste dein Glück.",
+  "welcomeMessage": "Willkommen! Lass uns Errate die Karte spielen!",
+  "placeholder": "Gib deine Vermutung ein...",
+  "guess": "Vermuten",
+  "correctGuess": "Richtig! Herzlichen Glückwunsch!",
+  "incorrectGuess": "Falsch! Der richtige Wert war {{value}}.",
+  "rulesTitle": "Regeln",
+  "objective": "Ziel",
+  "objectiveText": "Errate die Wertigkeit der zufällig gezogenen Karte.",
+  "howToPlay": "Spielanleitung",
+  "rule1": "Drücke eine Zahl zwischen 1 und 13, um die Wertigkeit der Karte zu raten.",
+  "rule2": "Nach deiner Vermutung wird die gezogene Karte angezeigt.",
+  "rule3": "Wenn deine Vermutung richtig ist, hast du gewonnen!",
+  "rule4": "Versuche es weiter, bis du richtig geraten hast.",
+  "cardRankings": "Kartenrangfolge",
+  "cardRankingsText": "Die Karten sind von 1 (Ass) bis 13 (König) nach Wertigkeit sortiert.",
+  "note": "Hinweis",
+  "noteText": "In diesem Spiel gibt es keine Punkte oder Strafen. Es geht nur um den Spaß am Spiel!"
+  }

@@ -1,0 +1,21 @@
+{
+  "title": "Devinez la carte",
+  "description": "Jouez au jeu de devinette de carte! Essayez de deviner la valeur d'une carte choisie au hasard!",
+  "welcomeMessage": "Bienvenue! Jouons à Devinez la carte!",
+  "placeholder": "Entrez votre estimation...",
+  "guess": "Devinez",
+  "correctGuess": "Réponse correcte! Félicitations!",
+  "incorrectGuess": "Réponse incorrecte! La valeur correcte était {{value}}.",
+  "rulesTitle": "Règles",
+  "objective": "Objectif",
+  "objectiveText": "Devinez la valeur d'une carte choisie au hasard.",
+  "howToPlay": "Comment jouer",
+  "rule1": "Appuyez sur les boutons de 1 à 13 et devinez la valeur de la carte.",
+  "rule2": "Après avoir deviné, la carte sera affichée.",
+  "rule3": "Si vous avez deviné correctement, vous gagnez!",
+  "rule4": "Continuez à essayer jusqu'à ce que vous trouviez la réponse correcte.",
+  "cardRankings": "Classement des cartes",
+  "cardRankingsText": "Les cartes sont classées de 1 (As) à 13 (Roi).",
+  "note": "Note",
+  "noteText": "Ce jeu n'a pas de points ou de pénalités. C'est juste pour le plaisir!"
+  }

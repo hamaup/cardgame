@@ -1,0 +1,23 @@
+{
+  "title": "Viša i niža",
+  "description": "Igrajte igru Viša i niža! Pokušajte pogoditi je li sljedeća karta viša ili niža od trenutne karte. Isprobajte svoju sreću i pokušajte pogoditi broj slučajno izvučene karte.",
+  "welcomeMessage": "Dobrodošli u igru Viša i niža!",
+  "guessNextCard": "Pogodite je li sljedeća karta viša ili niža od trenutne karte.",
+  "higher": "Viša",
+  "lower": "Niža",
+  "cardsEqual": "Karte su jednake!",
+  "correctGuess": "Točno!",
+  "incorrectGuess": "Netačno. Pokušajte ponovno.",
+  "rulesTitle": "Pravila igre Viša i niža",
+  "objective": "Cilj",
+  "objectiveText": "Pogoditi je li sljedeća karta viša ili niža od trenutne karte.",
+  "howToPlay": "Kako igrati",
+  "rule1": "Izvlači se nova karta.",
+  "rule2": "Pogodite je li sljedeća karta viša ili niža od trenutne karte.",
+  "rule3": "Ako je vaše predviđanje točno, možete nastaviti igrati.",
+  "rule4": "Ako je vaše predviđanje netočno, igra je gotova.",
+  "cardRankings": "Rangiranje karata",
+  "cardRankingsText": "Rangiranje karata ide od najniže do najviše: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A.",
+  "note": "Napomena",
+  "noteText": "Ova igra služi samo za zabavu i nema stvarne nagrade ili kazne."
+}

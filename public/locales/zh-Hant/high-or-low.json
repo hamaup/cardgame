@@ -1,0 +1,23 @@
+{
+  "title":"猜大小",
+  "description": "來玩猜大小遊戲吧！這是一個預測下一張牌是高還是低的遊戲！來試試你的運氣，猜中下一張牌的數字吧。",
+  "welcomeMessage": "歡迎來到猜大小遊戲！",
+  "guessNextCard": "請猜測下一張牌是高還是低。",
+  "higher": "高",
+  "lower": "低",
+  "cardsEqual": "牌面相同！",
+  "correctGuess": "猜對了！",
+  "incorrectGuess": "猜錯了，請再試一次。",
+  "rulesTitle": "猜大小：規則",
+  "objective": "目標",
+  "objectiveText": "預測下一張牌是高還是低。",
+  "howToPlay": "玩法",
+  "rule1": "抽取一張新的牌。",
+  "rule2": "猜測下一張牌是高還是低。",
+  "rule3": "猜測正確的話可以繼續猜測。",
+  "rule4": "猜測錯誤的話遊戲就結束了。",
+  "cardRankings": "牌面大小排名",
+  "cardRankingsText": "從小到大：2、3、4、5、6、7、8、9、10、J、Q、K、A。",
+  "note": "注意",
+  "noteText": "在這個遊戲中，A 是最大的牌。"
+}

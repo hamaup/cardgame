@@ -1,0 +1,10 @@
+{
+  "title": "Card Game Collection",
+  "description": "Enjoy a variety of card games!",
+  "game": {
+    "blackjack": "Blackjack",
+    "guess-the-card": "Guess the Card",
+    "high-or-low": "High or Low",
+    "memory-game": "Memory Game"
+  }
+}

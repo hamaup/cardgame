@@ -1,0 +1,23 @@
+{
+  "title": "Hoch-Tief-Spiel",
+  "description": "Spielen Sie das Hoch-Tief-Spiel! Erraten Sie, ob die nächste Karte höher oder niedriger ist als die aktuelle Karte! Versuchen Sie Ihr Glück, um die Nummer der zufällig gezogenen Karte zu erraten.",
+  "welcomeMessage": "Willkommen! Lassen Sie uns das Hoch-Tief-Spiel spielen!",
+  "guessNextCard": "Erraten Sie, ob die nächste Karte höher oder niedriger als die aktuelle Karte ist.",
+  "higher": "Höher",
+  "lower": "Niedriger",
+  "cardsEqual": "Die Karten sind gleich!",
+  "correctGuess": "Richtig geraten!",
+  "incorrectGuess": "Falsch geraten. Versuchen Sie es noch einmal.",
+  "rulesTitle": "Hoch-Tief-Spiel: Regeln",
+  "objective": "Ziel",
+  "objectiveText": "Erraten Sie, ob die nächste Karte höher oder niedriger als die aktuelle Karte ist.",
+  "howToPlay": "Spielanleitung",
+  "rule1": "Eine neue Karte wird gezogen.",
+  "rule2": "Erraten Sie, ob die nächste Karte höher oder niedriger als die aktuelle Karte ist.",
+  "rule3": "Wenn Ihre Vermutung richtig ist, können Sie weiter raten.",
+  "rule4": "Wenn Sie falsch liegen, ist das Spiel vorbei.",
+  "cardRankings": "Kartenwertungen",
+  "cardRankingsText": "Von niedrig nach hoch: 2, 3, 4, 5, 6, 7, 8, 9, 10, Bube, Dame, König, Ass.",
+  "note": "Hinweis",
+  "noteText": "In diesem Spiel gilt das Ass als höchste Karte."
+}

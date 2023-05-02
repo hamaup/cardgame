@@ -1,0 +1,21 @@
+{
+  "title": "Gissa kortet",
+  "description": "Spela Gissa kortet och försök att gissa kortets värde. Testa din tur med att dra slumpmässiga kort!",
+  "welcomeMessage": "Välkommen! Spela Gissa kortet med oss!",
+  "placeholder": "Gissa...",
+  "guess": "Gissa",
+  "correctGuess": "Rätt gissat! Grattis!",
+  "incorrectGuess": "Fel gissning! Rätt värde var {{value}}.",
+  "rulesTitle": "Regler",
+  "objective": "Mål",
+  "objectiveText": "Gissa kortets värde.",
+  "howToPlay": "Så här spelar du",
+  "rule1": "Klicka på knapparna 1 till 13 och gissa kortets värde.",
+  "rule2": "Efter att du har gjort en gissning visas kortet.",
+  "rule3": "Om du gissade rätt vinner du!",
+  "rule4": "Fortsätt gissa tills du gissar rätt.",
+  "cardRankings": "Kortrankning",
+  "cardRankingsText": "Korten rankas från 1 (ess) till 13 (kung).",
+  "note": "Observera",
+  "noteText": "Det finns inga poäng eller straff i detta spel. Det är bara för skojs skull!"
+}

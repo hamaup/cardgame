@@ -1,0 +1,21 @@
+{
+  "title": "Giskan á Kortinu",
+  "description": "Spilakortaleikur þar sem þú reynir að giska á gildið á spilakortinu sem kemur upp.",
+  "welcomeMessage": "Velkomin! Spilakortaleikurinn Giska á Kortinu er hérna!",
+  "placeholder": "Sláðu inn ágiskunina þína...",
+  "guess": "Ágiskun",
+  "correctGuess": "Rétt svar! Til hamingju!",
+  "incorrectGuess": "Rangt svar! Rétt gildi var {{value}}.",
+  "rulesTitle": "Reglur",
+  "objective": "Markmið",
+  "objectiveText": "Reyna að giska á gildi spilakortsins sem kemur upp.",
+  "howToPlay": "Leikreglur",
+  "rule1": "Ýttu á takkana 1 til 13 til að giska á gildi spilakortsins.",
+  "rule2": "Eftir að þú hefur giskað, verður spilakortið sýnt.",
+  "rule3": "Ef giskið var rétt, þá vinnur þú!",
+  "rule4": "Reyndu aftur og aftur þangað til þú finnur rétt gildi.",
+  "cardRankings": "Spilakorta Stig",
+  "cardRankingsText": "Spilakortin eru raðuð frá 1 (ás) til 13 (konungur).",
+  "note": "Athugið",
+  "noteText": "Engar stigaskorur eða refsingar eru í þessum leik. Leikurinn er bara til að hafa gaman!"
+}

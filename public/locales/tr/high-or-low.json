@@ -1,0 +1,23 @@
+{
+  "title": "Yüksek veya Düşük",
+  "description": "Yüksek veya Düşük oyununu oynayın! Rastgele seçilen bir kartın sayısını tahmin etmek için kartın bir sonraki karttan daha yüksek mi yoksa daha düşük mü olacağını tahmin edin.",
+  "welcomeMessage": "Hoş geldiniz! Yüksek veya Düşük oyununa hoş geldiniz!",
+  "guessNextCard": "Kartın bir sonraki karttan daha yüksek mi yoksa daha düşük mü olacağını tahmin edin.",
+  "higher": "Yüksek",
+  "lower": "Düşük",
+  "cardsEqual": "Kartlar eşit!",
+  "correctGuess": "Doğru tahmin!",
+  "incorrectGuess": "Yanlış tahmin. Tekrar deneyin.",
+  "rulesTitle": "Yüksek veya Düşük: Kurallar",
+  "objective": "Amaç",
+  "objectiveText": "Bir sonraki kartın seçilen karttan daha yüksek mi yoksa daha düşük mü olacağını tahmin etmek.",
+  "howToPlay": "Oynanış",
+  "rule1": "Yeni bir kart çekilir.",
+  "rule2": "Kartın bir sonraki karttan daha yüksek mi yoksa daha düşük mü olacağını tahmin edin.",
+  "rule3": "Doğru tahmin durumunda, devam edebilirsiniz.",
+  "rule4": "Yanlış tahmin durumunda, oyun biter.",
+  "cardRankings": "Kart Sıralamaları",
+  "cardRankingsText": "En düşükten en yükseğe: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A.",
+  "note": "Not",
+  "noteText": "Bu oyunda hiçbir puan veya ceza yoktur, sadece eğlence amaçlıdır!"
+}

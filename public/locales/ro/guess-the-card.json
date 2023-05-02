@@ -1,0 +1,21 @@
+{
+  "title": "Ghiceste cartea",
+  "description": "Joaca ghiceste cartea! Incearca sa ghicesti valoarea unei carti alese aleatoriu.",
+  "welcomeMessage": "Bun venit! Hai sa jucam ghiceste cartea!",
+  "placeholder": "Introdu ghicirea ta...",
+  "guess": "Ghiceste",
+  "correctGuess": "Raspuns corect! Felicitari!",
+  "incorrectGuess": "Raspuns gresit! Valoarea corecta era {{value}}.",
+  "rulesTitle": "Reguli",
+  "objective": "Obiectiv",
+  "objectiveText": "Sa ghicesti valoarea unei carti alese aleatoriu.",
+  "howToPlay": "Cum se joaca",
+  "rule1": "Apasa pe butoanele de la 1 la 13 si ghiceste valoarea cartii.",
+  "rule2": "Dupa ce ai ghicit valoarea, cartea va fi afisata.",
+  "rule3": "Daca ai ghicit corect, ai castigat!",
+  "rule4": "Incearca pana cand ghicesti valoarea corecta.",
+  "cardRankings": "Ranguri de carti",
+  "cardRankingsText": "Cartile sunt ordonate in ranguri de la 1 (As) pana la 13 (Rege).",
+  "note": "Observatie",
+  "noteText": "Acest joc nu implica punctaje sau penalizari. Este doar pentru distractie!"
+}

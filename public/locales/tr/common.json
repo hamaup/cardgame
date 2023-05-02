@@ -1,0 +1,10 @@
+{
+  "title": "Kart Oyunları Koleksiyonu",
+  "description": "Çeşitli kart oyunlarının tadını çıkarın!",
+  "game": {
+    "blackjack": "Blackjack",
+    "guess-the-card": "Kartı Tahmin Et",
+    "high-or-low": "Yüksek mi Düşük mü",
+    "memory-game": "Hafıza Oyunu"
+  }
+}

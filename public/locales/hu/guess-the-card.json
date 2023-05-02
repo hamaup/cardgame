@@ -1,0 +1,21 @@
+{
+  "title": "Kártya kitalálás",
+  "description": "Játssz egy kártya kitalálós játékot! Próbáld ki, milyen jósló szerencséd van a véletlenszerűen húzott kártyák értékének kitalálásában.",
+  "welcomeMessage": "Üdvözlünk! Játsszunk egy kártya kitalálós játékot!",
+  "placeholder": "Tippelj egy értéket...",
+  "guess": "Tipp",
+  "correctGuess": "Helyes tipp! Gratulálunk!",
+  "incorrectGuess": "Rossz tipp! A helyes érték {{value}} volt.",
+  "rulesTitle": "Szabályok",
+  "objective": "Cél",
+  "objectiveText": "Egy véletlenszerűen húzott kártya értékének kitalálása.",
+  "howToPlay": "Hogyan kell játszani",
+  "rule1": "Nyomd meg az 1-től 13-ig terjedő gombokat, hogy tippelj az értékre.",
+  "rule2": "Miután tippeltél, a kártya megjelenik.",
+  "rule3": "Ha helyesen tippeltél, akkor nyertél!",
+  "rule4": "Addig próbálkozz, amíg helyesen nem tippelsz.",
+  "cardRankings": "Kártya rangsorolás",
+  "cardRankingsText": "A kártyák 1 (ász) és 13 (király) közötti értékeket kaptak.",
+  "note": "Megjegyzés",
+  "noteText": "Ebben a játékban nincs pontszám vagy büntetés. Csak azért van, hogy jól szórakozzunk!"
+}

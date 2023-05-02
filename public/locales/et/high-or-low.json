@@ -1,0 +1,23 @@
+{
+  "title": "Kõrge ja madal",
+  "description": "Mängime kõrge ja madalat! See on mäng, kus peate ennustama, kas järgmine kaart on praegusest kaardist kõrgem või madalam! Proovige oma õnne ja arvake ära juhuslikult valitud kaardi number.",
+  "welcomeMessage": "Tere tulemast! Mängime kõrge ja madalat!",
+  "guessNextCard": "Arvake, kas järgmine kaart on praegusest kaardist kõrgem või madalam.",
+  "higher": "Kõrgem",
+  "lower": "Madalam",
+  "cardsEqual": "Kaardid on samad!",
+  "correctGuess": "Õige vastus!",
+  "incorrectGuess": "Vale vastus. Proovige uuesti.",
+  "rulesTitle": "Kõrge ja madal: reeglid",
+  "objective": "Eesmärk",
+  "objectiveText": "Ennustage, kas järgmine kaart on praegusest kaardist kõrgem või madalam.",
+  "howToPlay": "Mängu reeglid",
+  "rule1": "Uus kaart tõmmatakse.",
+  "rule2": "Arvake, kas järgmine kaart on praegusest kaardist kõrgem või madalam.",
+  "rule3": "Kui arvate õigesti, saate jätkata oma ennustuste tegemist.",
+  "rule4": "Kui arvate valesti, kaotate mängu.",
+  "cardRankings": "Kaardi järjestus",
+  "cardRankingsText": "Järjestus algab madalaimast: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A.",
+  "note": "Märkus",
+  "noteText": "Selles mängus loetakse Äss kõrgeimaks kaardiks."
+}

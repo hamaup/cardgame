@@ -1,0 +1,23 @@
+{
+  "title":"Augšā un Lejā",
+  "description": "Spēlēsim Augšā un Lejā! Tas ir spēle, kurā jāuzmin, vai nākamā karte būs augstāka vai zemāka par pašreizējo. Mēģiniet savu laimi, minot gadījuma kartes skaitli!",
+  "welcomeMessage": "Sveicināti! Spēlēsim Augšā un Lejā!",
+  "guessNextCard": "Miniet, vai nākamā karte būs augstāka vai zemāka par pašreizējo karti.",
+  "higher": "Augstāka",
+  "lower": "Zemāka",
+  "cardsEqual": "Kartes ir vienādas!",
+  "correctGuess": "Pareizi!",
+  "incorrectGuess": "Nepareizi. Mēģiniet vēlreiz.",
+  "rulesTitle": "Augšā un Lejā: Noteikumi",
+  "objective": "Mērķis",
+  "objectiveText": "Uzminēt, vai nākamā karte būs augstāka vai zemāka par pašreizējo.",
+  "howToPlay": "Kā spēlēt",
+  "rule1": "Tiek izvēlēta jauna karte.",
+  "rule2": "Jums jāmin, vai nākamā karte būs augstāka vai zemāka par pašreizējo.",
+  "rule3": "Ja minat pareizi, jūs varat turpināt minēt.",
+  "rule4": "Ja minat nepareizi, spēle ir beigusies.",
+  "cardRankings": "Kartes vērtības",
+  "cardRankingsText": "No zemākās līdz augstākajai: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A.",
+  "note": "Piezīme",
+  "noteText": "Šajā spēlē esam uzskatījuši, ka A ir augstākā karte."
+}

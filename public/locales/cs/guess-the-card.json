@@ -1,0 +1,21 @@
+{
+  "title": "Uhodněte kartu",
+  "description": "Hrajte hru Uhodněte kartu! Zkuste uhodnout hodnotu náhodně vybrané karty a podívejte se, jak jste šťastní.",
+  "welcomeMessage": "Vítejte! Hrajte hru Uhodněte kartu!",
+  "placeholder": "Zadejte svůj odhad...",
+  "guess": "Hádat",
+  "correctGuess": "Správně! Gratulujeme!",
+  "incorrectGuess": "Nesprávně! Správná hodnota byla {{value}}.",
+  "rulesTitle": "Pravidla",
+  "objective": "Cíl hry",
+  "objectiveText": "Uhodnout hodnotu náhodně vybrané karty.",
+  "howToPlay": "Jak hrát",
+  "rule1": "Stiskněte tlačítka od 1 do 13 a uhodněte hodnotu karty.",
+  "rule2": "Po uhodnutí se karta zobrazí.",
+  "rule3": "Pokud uhodnete správně, vyhráváte!",
+  "rule4": "Pokračujte v hádání, dokud neuhodnete správně.",
+  "cardRankings": "Hodnocení karet",
+  "cardRankingsText": "Karty jsou hodnoceny v rozmezí od 1 (eso) do 13 (král).",
+  "note": "Poznámka",
+  "noteText": "Tato hra nemá žádné body nebo tresty. Je to jen pro zábavu!"
+  }

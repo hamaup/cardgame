@@ -4,32 +4,39 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Head from 'next/head';
 import Header from '../components/Header';
 
+type Card = {
+  suit: string;
+  value: string;
+};
+
 const GuessTheCard: React.FC = () => {
   const { t } = useTranslation('guess-the-card');
-  const [currentCard, setCurrentCard] = useState(null);
-  const [guessedCard, setGuessedCard] = useState('');
-  const [message, setMessage] = useState(t('welcomeMessage'));
-  const [showAnswer, setShowAnswer] = useState(false);
-  const [gameStatus, setGameStatus] = useState('readyToGuess');
+  const [currentCard, setCurrentCard] = useState<Card | null>(null);
+  const [guessedCard, setGuessedCard] = useState<string>('');
+  const [message, setMessage] = useState<string>(t('welcomeMessage').toString());
+  const [showAnswer, setShowAnswer] = useState<boolean>(false);
+  const [gameStatus, setGameStatus] = useState<string>('readyToGuess');
 
-  const suits = ['HEART', 'DIAMOND', 'CLUB', 'SPADE'];
-  const values = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'];
+  const suits: string[] = ['HEART', 'DIAMOND', 'CLUB', 'SPADE'];
+  const values: string[] = [
+    '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'
+  ];
 
-  const drawCard = () => {
-    const suit = suits[Math.floor(Math.random() * suits.length)];
-    const value = values[Math.floor(Math.random() * values.length)];
+  const drawCard = (): Card => {
+    const suit: string = suits[Math.floor(Math.random() * suits.length)];
+    const value: string = values[Math.floor(Math.random() * values.length)];
     return { suit, value };
   };
 
-  const handleGuess = (value) => {
+  const handleGuess = (value: string) => {
     setGameStatus('guessing'); // Disable buttons while guessing
 
     setShowAnswer(true);
-    if (value === currentCard.value) {
-      setMessage(t('correctGuess'));
+    if (value === currentCard?.value) {
+      setMessage(t('correctGuess').toString());
       setGameStatus('correct');
     } else {
-      setMessage(t('incorrectGuess', { value: currentCard.value }));
+      setMessage(t('incorrectGuess', { value: currentCard?.value }).toString());
       setGameStatus('incorrect');
     }
     setTimeout(() => {
@@ -48,13 +55,13 @@ const GuessTheCard: React.FC = () => {
     <>
       <Head>
         <title>{t('title')}</title>
-        <meta name="description" content={t('description')} />
+        <meta name="description" content={t('description').toString()} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="container">
         <Header />
         <main className="main-content">
-          <h2 className="game-title">{t('title')}</h2>
+          <h2 className="game-title">{t('title').toString()}</h2>
           <div className="message-container">
             <div id="message">{message}</div>
           </div>

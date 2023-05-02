@@ -4,21 +4,26 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Head from 'next/head';
 import Header from '../components/Header';
 
+interface Card {
+  suit: string;
+  value: string;
+}
+
 const HighOrLow: React.FC = () => {
   const { t } = useTranslation('high-or-low');
-  const [currentCard, setCurrentCard] = useState(null);
-  const [message, setMessage] = useState(t('welcomeMessage'));
+  const [currentCard, setCurrentCard] = useState<Card | null>(null);
+  const [message, setMessage] = useState<string>(t('welcomeMessage').toString());
 
-  const suits = ['HEART', 'DIAMOND', 'CLUB', 'SPADE'];
-  const values = ['2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '1'];
+  const suits: string[] = ['HEART', 'DIAMOND', 'CLUB', 'SPADE'];
+  const values: string[] = ['2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '1'];
 
-  const drawCard = () => {
-    const suit = suits[Math.floor(Math.random() * suits.length)];
-    const value = values[Math.floor(Math.random() * values.length)];
+  const drawCard = (): Card => {
+    const suit: string = suits[Math.floor(Math.random() * suits.length)];
+    const value: string = values[Math.floor(Math.random() * values.length)];
     return { suit, value };
   };
 
-  const compareCards = (card1, card2) => {
+  const compareCards = (card1: Card, card2: Card): number => {
     if (values.indexOf(card1.value) < values.indexOf(card2.value)) {
       return -1;
     } else if (values.indexOf(card1.value) > values.indexOf(card2.value)) {
@@ -27,45 +32,46 @@ const HighOrLow: React.FC = () => {
     return 0;
   };
 
-  const displayCard = (card) => {
-    return `/images/${card.suit}-${card.value}.svg`;
+  const displayCard = (card: Card): string => {
+    return `/images/${card.suit} -${card.value}.svg`;
   };
 
-  const play = (guess) => {
+  const play = (guess: string): void => {
     if (!currentCard) {
       setCurrentCard(drawCard());
-      setMessage(t('guessNextCard'));
+      setMessage(t('guessNextCard').toString());
       return;
     }
 
-    const nextCard = drawCard();
+    const nextCard: Card = drawCard();
 
-    const comparison = compareCards(currentCard, nextCard);
+    const comparison: number = compareCards(currentCard, nextCard);
     if (comparison === 0) {
-      setMessage(t('cardsEqual'));
+      setMessage(t('cardsEqual').toString());
     } else if ((comparison === -1 && guess === 'higher') || (comparison === 1 && guess === 'lower')) {
-      setMessage(t('correctGuess'));
+      setMessage(t('correctGuess').toString());
     } else {
-      setMessage(t('incorrectGuess'));
+      setMessage(t('incorrectGuess').toString());
     }
     setCurrentCard(nextCard);
   };
 
   useEffect(() => {
-    play();
+    play('');
   }, []);
+
 
   return (
     <>
       <Head>
         <title>{t('title')}</title>
-        <meta name="description" content={t('description')} />
+        <meta name="description" content={t('description').toString()} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="container">
         <Header />
         <main className="main-content">
-          <h2 className="game-title">{t('title')}</h2>
+          <h2 className="game-title">{t('title').toString()}</h2>
           <div className="message-container">
             <div id="message">{message}</div>
           </div>

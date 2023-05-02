@@ -5,14 +5,20 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Header from '../components/Header';
 import styles from './blackjack.module.css';
 
+type CardType = {
+  suit: string;
+  value: string;
+  image: string;
+};
+
 const Blackjack: React.FC = () => {
   const { t } = useTranslation('blackjack');
   const suits = ['HEART', 'DIAMOND', 'CLUB', 'SPADE'];
   const values = ['2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '1'];
 
-  const [deck, setDeck] = useState([]);
-  const [dealerHand, setDealerHand] = useState([]);
-  const [playerHand, setPlayerHand] = useState([]);
+  const [deck, setDeck] = useState<CardType[]>([]);
+  const [dealerHand, setDealerHand] = useState<CardType[]>([]);
+  const [playerHand, setPlayerHand] = useState<CardType[]>([]);
   const [gameOver, setGameOver] = useState(false);
   const [gameResult, setGameResult] = useState('');
   const [message, setMessage] = useState(t('welcomeMessage'));
@@ -22,13 +28,13 @@ const Blackjack: React.FC = () => {
   }, []);
 
   const createDeck = () => {
-    const newDeck = [];
+    const newDeck: CardType[] = [];
     for (let suitIdx = 0; suitIdx < suits.length; suitIdx++) {
       for (let valueIdx = 0; valueIdx < values.length; valueIdx++) {
-        const card = {
+        const card: CardType = {
           suit: suits[suitIdx],
           value: values[valueIdx],
-          image: `/images/${suits[suitIdx]}-${values[valueIdx]}.svg`
+          image: `/images/${suits[suitIdx]}-${values[valueIdx]}.svg`,
         };
         newDeck.push(card);
       }
@@ -36,29 +42,29 @@ const Blackjack: React.FC = () => {
     return newDeck;
   };
 
-  const shuffleDeck = (deck) => {
+  const shuffleDeck = (deck: CardType[]) => {
     for (let i = deck.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [deck[i], deck[j]] = [deck[j], deck[i]];
     }
   };
 
-  const dealCards = (deck, hand, numCards) => {
+  const dealCards = (deck: CardType[], hand: CardType[], numCards: number) => {
     const newHand = [...hand];
     for (let i = 0; i < numCards; i++) {
-      newHand.push(deck.pop());
+      newHand.push(deck.pop() as CardType);
     }
     return newHand;
   };
 
-  const Card = ({ card, hideFirstCard = false }) => {
+  const Card = ({ card, hideFirstCard = false }: { card: CardType; hideFirstCard?: boolean }) => {
     if (hideFirstCard) {
       return <img src="/images/card-back.png" alt="Card back" className={styles.cardImage} />;
     }
     return <img src={card.image} alt={`${card.value} of ${card.suit}`} className={styles.cardImage} />;
   };
 
-  const getCardValue = (card) => {
+  const getCardValue = (card: CardType) => {
     if (card.value === '1') {
       return 11;
     } else if (card.value === '11' || card.value === '12' || card.value === '13') {
@@ -68,7 +74,7 @@ const Blackjack: React.FC = () => {
     }
   };
 
-  const calculateHandValue = (hand) => {
+  const calculateHandValue = (hand: CardType[]) => {
     let value = 0;
     let aceCount = 0;
     for (let i = 0; i < hand.length; i++) {
@@ -136,7 +142,7 @@ const Blackjack: React.FC = () => {
     const newPlayerHand = dealCards(deck, playerHand, 1);
     setPlayerHand(newPlayerHand);
     if (calculateHandValue(newPlayerHand) > 21) {
-      setGameResult(t("player_busts"));
+      setGameResult(t("player_busts").toString());
       setGameOver(true);
     }
   };
@@ -150,7 +156,12 @@ const Blackjack: React.FC = () => {
     endGame();
   };
 
-  const Modal = ({ show, onClose, children }) => {
+  interface ModalProps {
+    show: boolean;
+    onClose: () => void;
+    children: React.ReactNode;
+  }
+  const Modal: React.FC<ModalProps> = ({ show, onClose, children }) => {
     if (!show) {
       return null;
     }
@@ -175,13 +186,13 @@ const Blackjack: React.FC = () => {
     <>
       <Head>
         <title>{t('title')}</title>
-        <meta name="description" content={t('description')} />
+        <meta name="description" content={t('description').toString()} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="container">
         <Header />
         <main className="main-content">
-          <h2 className="game-title">{t('title')}</h2>
+          <h2 className="game-title">{t('title').toString()}</h2>
           <div className="message-container">
             <div id="message">
               {message}

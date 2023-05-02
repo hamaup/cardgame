@@ -6,21 +6,27 @@ import Header from '../components/Header';
 import styles from './memory-game.module.css';
 import Confetti from 'react-confetti';
 
+interface Card {
+  suit: string;
+  value: string;
+  id: string;
+  image: string;
+}
+
 const MemoryGame: React.FC = () => {
   const { t } = useTranslation('memory-game');
-  const [message, setMessage] = useState(t('welcomeMessage'));
-  const [cards, setCards] = useState([]);
-  const [matchedCards, setMatchedCards] = useState([]);
-  const [selectedCards, setSelectedCards] = useState([] as Array<number>);
-  const [showConfetti, setShowConfetti] = useState(false);
+  const [message, setMessage] = useState<string>(t('welcomeMessage').toString());
+  const [cards, setCards] = useState<Card[]>([]);
+  const [matchedCards, setMatchedCards] = useState<string[]>([]);
+  const [selectedCards, setSelectedCards] = useState<number[]>([]);
+  const [showConfetti, setShowConfetti] = useState<boolean>(false);
 
-
-  const suits = ['HEART', 'DIAMOND', 'CLUB', 'SPADE'];
-  const values = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'];
+  const suits: string[] = ['HEART', 'DIAMOND', 'CLUB', 'SPADE'];
+  const values: string[] = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'];
 
   useEffect(() => {
-    const createDeck = () => {
-      const deck = [];
+    const createDeck = (): Card[] => {
+      const deck: Card[] = [];
       for (let suit of suits) {
         for (let value of values) {
           deck.push({
@@ -34,23 +40,22 @@ const MemoryGame: React.FC = () => {
       return deck;
     };
 
-    const shuffleDeck = (deck) => {
+    const shuffleDeck = (deck: Card[]) => {
       for (let i = deck.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [deck[i], deck[j]] = [deck[j], deck[i]];
       }
     };
 
-    const deck = createDeck();
+    const deck: Card[] = createDeck();
     shuffleDeck(deck);
 
-    const cardsDeck = deck.slice(0, 10);
-    const pairedDeck = [...cardsDeck, ...cardsDeck];
+    const cardsDeck: Card[] = deck.slice(0, 10);
+    const pairedDeck: Card[] = [...cardsDeck, ...cardsDeck];
 
     shuffleDeck(pairedDeck);
     setCards(pairedDeck);
   }, []);
-
 
   const handleCardClick = (index: number) => {
     if (matchedCards.includes(cards[index].id) || selectedCards.includes(index)) {
@@ -62,14 +67,12 @@ const MemoryGame: React.FC = () => {
       if (newSelectedCards.length === 2) {
         setTimeout(() => {
           checkMatch(newSelectedCards);
-        }, 1000);
+        }, 800);
       }
     }
   };
 
-
-
-  const checkMatch = (selectedCardsToCheck: Array<number>) => {
+  const checkMatch = (selectedCardsToCheck: number[]) => {
     if (selectedCardsToCheck.length === 2) {
       const [firstCard, secondCard] = selectedCardsToCheck;
       if (cards[firstCard].id === cards[secondCard].id) {
@@ -78,25 +81,23 @@ const MemoryGame: React.FC = () => {
       } else {
         setTimeout(() => {
           setSelectedCards([]);
-        }, 1000);
+        }, 800);
       }
     }
   };
 
-
   useEffect(() => {
     if (cards.length !== 0 && matchedCards.length !== 0 && matchedCards.length === cards.length / 2) {
-      setMessage(t('winMessage'));
+      setMessage(t('winMessage').toString());
       setShowConfetti(true);
     }
   }, [matchedCards]);
 
-
   return (
     <>
       <Head>
-        <title>{t('title')}</title>
-        <meta name="description" content={t('description')} />
+        <title>{t('title').toString()}</title>
+        <meta name="description" content={t('description').toString()} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {showConfetti && <Confetti />}

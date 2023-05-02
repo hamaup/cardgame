@@ -12,8 +12,8 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>{t('title')}</title>
-        <meta name="description" content={t('description')} />
+        <title>{t('title').toString()}</title>
+        <meta name="description" content={t('description').toString()} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="container">

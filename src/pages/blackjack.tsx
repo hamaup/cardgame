@@ -66,7 +66,7 @@ const Blackjack: React.FC = () => {
 
   const getCardValue = (card: CardType) => {
     if (card.value === '1') {
-      return 11;
+      return 1;
     } else if (card.value === '11' || card.value === '12' || card.value === '13') {
       return 10;
     } else {
@@ -79,19 +79,20 @@ const Blackjack: React.FC = () => {
     let aceCount = 0;
     for (let i = 0; i < hand.length; i++) {
       const cardValue = getCardValue(hand[i]);
-      if (cardValue === 11) {
+      if (cardValue === 1) {
         aceCount++;
       }
       value += cardValue;
     }
 
-    while (value > 21 && aceCount > 0) {
-      value -= 10;
-      aceCount--;
+    // エースが存在し、エースを11とした場合の手札の合計値が21以下の場合、エースを11として扱う
+    if (aceCount > 0 && value + 10 <= 21) {
+      value += 10;
     }
 
     return value;
   };
+
 
   const startNewGame = () => {
     const newDeck = createDeck();

@@ -12,7 +12,12 @@ interface CardProps {
   };
 }
 
-const Card = ({ card }: CardProps) => {
+interface Card {
+  suit: string;
+  value: string;
+}
+
+const CardComponent = ({ card }: CardProps) => {
   const { suit, value } = card;
 
   return (
@@ -25,34 +30,26 @@ const Card = ({ card }: CardProps) => {
 };
 
 interface HandProps {
-  hand: {
-    suit: string;
-    value: string;
-  }[];
+  hand: Card[];
 }
 
 const Hand = ({ hand }: HandProps) => {
   return (
     <div className={styles.card_wrapper}>
       {hand.map((card, i) => (
-        <Card key={i} card={card} />
+        <CardComponent key={i} card={card} />
       ))}
     </div>
   );
 };
 
 interface ResultProps {
-  playerHand: {
-    suit: string;
-    value: string;
-  }[];
-  bankerHand: {
-    suit: string;
-    value: string;
-  }[];
+  playerHand: Card[];
+  bankerHand: Card[];
   playerScore: number;
   bankerScore: number;
   resultMessage: string;
+  onClose: () => void;
 }
 
 const Result = ({ playerScore, bankerScore, resultMessage }: ResultProps) => {
@@ -94,9 +91,9 @@ const Modal: React.FC<ModalProps> = ({ show, onClose, children }) => {
 
 const Baccarat = () => {
   const { t } = useTranslation('baccarat');
-  const [deck, setDeck] = useState([]);
-  const [playerHand, setPlayerHand] = useState([]);
-  const [bankerHand, setBankerHand] = useState([]);
+  const [deck, setDeck] = useState<Card[]>([]);
+  const [playerHand, setPlayerHand] = useState<Card[]>([]);
+  const [bankerHand, setBankerHand] = useState<Card[]>([]);
   const [playerScore, setPlayerScore] = useState(0);
   const [bankerScore, setBankerScore] = useState(0);
   const [gameStatus, setGameStatus] = useState("init");
@@ -107,7 +104,6 @@ const Baccarat = () => {
   useEffect(() => {
     initializeGame();
   }, []);
-
 
   const generateDeck = () => {
     const suits = ["HEART", "DIAMOND", "CLUB", "SPADE"];
@@ -130,7 +126,8 @@ const Baccarat = () => {
     return newDeck;
   };
 
-  const shuffleDeck = (deck) => {
+
+  const shuffleDeck = (deck: Card[]) => {
     for (let i = 0; i < deck.length; i++) {
       const randomIdx = Math.floor(Math.random() * deck.length);
       const tmp = deck[i];
@@ -140,17 +137,33 @@ const Baccarat = () => {
   };
 
   const dealCards = () => {
-    setPlayerHand([deck.shift(), deck.shift()]);
-    setBankerHand([deck.shift(), deck.shift()]);
+    if (deck.length >= 4) {
+      const card1 = deck.shift();
+      const card2 = deck.shift();
+      const card3 = deck.shift();
+      const card4 = deck.shift();
+
+      if (card1 && card2 && card3 && card4) {
+        setPlayerHand([card1, card2]);
+        setBankerHand([card3, card4]);
+      } else {
+        // Handle the case when there are not enough cards in the deck
+        console.error('Not enough cards in the deck to deal');
+      }
+    } else {
+      // Handle the case when there are not enough cards in the deck
+      console.error('Not enough cards in the deck to deal');
+    }
   };
 
-  const calculatePoints = (hand) => {
+
+  const calculatePoints = (hand: Card[]) => {
     let points = 0;
     for (let i = 0; i < hand.length; i++) {
       const card = hand[i];
-      if (card.value === "J" || card.value === "Q" || card.value === "K") {
+      if (card.value === "11" || card.value === "12" || card.value === "13") {
         points += 0;
-      } else if (card.value === "A") {
+      } else if (card.value === "1") {
         points += 1;
       } else {
         points += parseInt(card.value);
@@ -186,11 +199,15 @@ const Baccarat = () => {
       determineWinner();
     } else if (playerScore <= 5) {
       const thirdCard = drawCard();
-      const newPlayerHand = [...playerHand, thirdCard];
-      const newPlayerScore = calculatePoints(newPlayerHand);
-      setPlayerHand(newPlayerHand);
-      setPlayerScore(newPlayerScore);
-      setBankerScore(drawBankerCard(newPlayerScore, bankerScore));
+      if (thirdCard) {
+        const newPlayerHand = [...playerHand, thirdCard];
+        const newPlayerScore = calculatePoints(newPlayerHand);
+        setPlayerHand(newPlayerHand);
+        setPlayerScore(newPlayerScore);
+        setBankerScore(drawBankerCard(newPlayerScore, bankerScore));
+      } else {
+        // Handle the case when there are no more cards in the deck
+      }
     } else if (bankerScore <= 5 && playerScore >= 6) {
       setBankerScore(drawBankerCard(playerScore, bankerScore));
     } else {
@@ -206,11 +223,17 @@ const Baccarat = () => {
       return bankerScore;
     }
     const thirdCard = drawCard();
-    const newBankerHand = [...bankerHand, thirdCard];
-    const newBankerScore = calculatePoints(newBankerHand);
-    setBankerHand(newBankerHand);
-    return newBankerScore;
+    if (thirdCard) {
+      const newBankerHand = [...bankerHand, thirdCard];
+      const newBankerScore = calculatePoints(newBankerHand);
+      setBankerHand(newBankerHand);
+      return newBankerScore;
+    } else {
+      // Handle the case when there are no more cards in the deck
+      return bankerScore;
+    }
   };
+
   const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
   useEffect(() => {
@@ -218,10 +241,14 @@ const Baccarat = () => {
       if (bankerScore < 6) {
         await delay(1000); // 1秒待つ
         const thirdCard = drawCard();
-        const newBankerHand = [...bankerHand, thirdCard];
-        const newBankerScore = calculatePoints(newBankerHand);
-        setBankerHand(newBankerHand);
-        setBankerScore(newBankerScore);
+        if (thirdCard) {
+          const newBankerHand = [...bankerHand, thirdCard];
+          const newBankerScore = calculatePoints(newBankerHand);
+          setBankerHand(newBankerHand);
+          setBankerScore(newBankerScore);
+        } else {
+          // Handle the case when there are no more cards in the deck
+        }
       }
     };
 
@@ -229,6 +256,7 @@ const Baccarat = () => {
       drawBankerCard();
     }
   }, [bankerHand]);
+
 
 
   const determineWinner = () => {

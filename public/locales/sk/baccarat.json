@@ -14,5 +14,9 @@
   "cardRankings": "Hodnoty kariet",
   "cardRankingsText": "V bakará majú karty 2-9 svoju nominálnu hodnotu, 10 a tvárové karty sa počítajú ako 0 a esa sa počítajú ako 1.",
   "note": "Poznámka",
-  "noteText": "V bakará môže dôjsť k remíze."
+  "noteText": "V bakará môže dôjsť k remíze.",
+  "PLAYER_WINS": "Hráč vyhráva",
+  "BANKER_WINS": "Banka vyhráva",
+  "TIE": "Remíza",
+  "RESULT": "Výsledok"
 }

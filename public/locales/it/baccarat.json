@@ -14,5 +14,9 @@
   "cardRankings": "Classifiche delle Carte",
   "cardRankingsText": "Nel baccarat, le carte da 2 a 9 hanno il loro valore facciale, le carte da 10 e le figure valgono 0 e gli assi valgono 1.",
   "note": "Nota",
-  "noteText": "È possibile avere pareggi nel baccarat."
+  "noteText": "È possibile avere pareggi nel baccarat.",
+  "PLAYER_WINS": "Il giocatore vince!",
+  "BANKER_WINS": "Il banchiere vince!",
+  "TIE": "Pareggio!",
+  "RESULT": "Risultato"
 }

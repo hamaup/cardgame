@@ -14,5 +14,9 @@
   "cardRankings": "Kártya rangsor",
   "cardRankingsText": "A bakkara játékban a 2-9 lapok értéke a lapok számával megegyezik, a 10-esek és az arckártyák értéke 0, az ászok értéke pedig 1.",
   "note": "Megjegyzés",
-  "noteText": "A bakkara játékban előfordulhat döntetlen eredmény is."
+  "noteText": "A bakkara játékban előfordulhat döntetlen eredmény is.",
+  "PLAYER_WINS": "A játékos nyer!",
+  "BANKER_WINS": "A bank nyer!",
+  "TIE": "Döntetlen!",
+  "RESULT": "Eredmény"
 }

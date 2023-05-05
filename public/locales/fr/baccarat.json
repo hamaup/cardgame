@@ -14,5 +14,9 @@
   "cardRankings": "Classement des cartes",
   "cardRankingsText": "Au baccarat, les cartes 2 à 9 ont leur valeur faciale, les 10 et les cartes face comptent pour 0, et les as comptent pour 1.",
   "note": "Note",
-  "noteText": "Des égalités sont possibles au baccarat."
+  "noteText": "Des égalités sont possibles au baccarat.",
+  "PLAYER_WINS": "Le joueur gagne !",
+  "BANKER_WINS": "Le banquier gagne !",
+  "TIE": "Égalité !",
+  "RESULT": "Résultat"
 }

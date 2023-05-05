@@ -14,5 +14,9 @@
   "cardRankings": "Clasificación de cartas",
   "cardRankingsText": "En el baccarat, las cartas del 2 al 9 tienen su valor nominal, las cartas con valor de 10 y las figuras cuentan como 0, y los ases cuentan como 1.",
   "note": "Nota",
-  "noteText": "En el baccarat es posible que haya empate."
+  "noteText": "En el baccarat es posible que haya empate.",
+  "PLAYER_WINS": "¡El jugador gana!",
+  "BANKER_WINS": "¡El banquero gana!",
+  "TIE": "Empate",
+  "RESULT": "Resultado"
 }

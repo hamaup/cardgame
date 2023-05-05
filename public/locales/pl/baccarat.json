@@ -14,5 +14,9 @@
   "cardRankings": "Hierarchia Kart",
   "cardRankingsText": "W bakaracie karty od 2 do 9 mają wartość odpowiadającą ich liczbie, 10 i figury są warte 0 punktów, a asy są warte 1 punkt.",
   "note": "Uwaga",
-  "noteText": "W bakaracie możliwe są remisy."
+  "noteText": "W bakaracie możliwe są remisy.",
+  "PLAYER_WINS": "Gracz wygrywa",
+  "BANKER_WINS": "Bank wygrywa",
+  "TIE": "Remis",
+  "RESULT": "Wynik"
 }

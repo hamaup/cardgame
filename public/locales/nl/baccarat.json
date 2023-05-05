@@ -14,5 +14,9 @@
   "cardRankings": "Kaartwaarderingen",
   "cardRankingsText": "Bij baccarat hebben kaarten 2-9 hun eigen waarde, 10'en en gezichtskaarten tellen als 0, en azen tellen als 1.",
   "note": "Opmerking",
-  "noteText": "Gelijkspel is mogelijk bij baccarat."
+  "noteText": "Gelijkspel is mogelijk bij baccarat.",
+  "PLAYER_WINS": "Speler wint",
+  "BANKER_WINS": "Bank wint",
+  "TIE": "Gelijkspel",
+  "RESULT": "Resultaat"
 }

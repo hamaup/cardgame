@@ -14,5 +14,9 @@
   "cardRankings": "Razvrstitev kart",
   "cardRankingsText": "V bakari karti od 2 do 9 predstavljajo svojo vrednost, karte od 10 do kralja imajo vrednost 0, as pa 1.",
   "note": "Opomba",
-  "noteText": "V bakari je možen neodločen izid."
+  "noteText": "V bakari je možen neodločen izid.",
+  "PLAYER_WINS": "Igralec zmaga",
+  "BANKER_WINS": "Banka zmaga",
+  "TIE": "Izenačeno",
+  "RESULT": "Rezultat"
 }

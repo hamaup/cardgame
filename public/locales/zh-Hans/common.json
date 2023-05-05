@@ -7,7 +7,7 @@
     "blackjack": "二十一点",
     "guess-the-card": "猜牌",
     "high-or-low": "大小",
-    "memory-game": "记忆游戏"
-  },
-  "winMessage": "恭喜！你找到了所有的配对！"
+    "memory-game": "记忆游戏",
+    "baccarat": "百家乐"
+  }
 }

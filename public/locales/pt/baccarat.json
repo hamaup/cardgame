@@ -14,5 +14,9 @@
   "cardRankings": "Classificação das Cartas",
   "cardRankingsText": "No bacará, as cartas de 2 a 9 têm o seu valor facial, 10s e cartas de figuras valem 0 e ases valem 1.",
   "note": "Nota",
-  "noteText": "Empates são possíveis no bacará."
+  "noteText": "Empates são possíveis no bacará.",
+  "PLAYER_WINS": "Jogador ganha",
+  "BANKER_WINS": "Banco ganha",
+  "TIE": "Empate",
+  "RESULT": "Resultado"
 }

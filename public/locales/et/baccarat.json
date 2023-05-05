@@ -14,5 +14,9 @@
   "cardRankings": "Kaartide väärtused",
   "cardRankingsText": "Baccarat'is on kaartide väärtused 2–9 võrdelised nende numbrilise väärtusega, kümned ja näokaardid loetakse 0-ks ning ässad loetakse 1-ks.",
   "note": "Märkus",
-  "noteText": "Baccarat'is võivad mängud lõppeda viigiga."
-  }
+  "noteText": "Baccarat'is võivad mängud lõppeda viigiga.",
+  "PLAYER_WINS": "Mängija võidab!",
+  "BANKER_WINS": "Pankur võidab!",
+  "TIE": "Viik!",
+  "RESULT": "Tulemus"
+}

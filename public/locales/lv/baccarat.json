@@ -14,5 +14,9 @@
   "cardRankings": "Kartes rangu saraksts",
   "cardRankingsText": "Baccarat spēlē, 2-9 kārtis skaita savu vērtību, 10 un pārējās figūru kārtis ir vērtības 0, bet tūkstoš spēle kartēs ir vērtība 1.",
   "note": "Piezīme",
-  "noteText": "Baccarat spēlē ir iespējams izcīnīt neizšķirtu."
+  "noteText": "Baccarat spēlē ir iespējams izcīnīt neizšķirtu.",
+  "PLAYER_WINS": "Spēlētājs uzvar",
+  "BANKER_WINS": "Banka uzvar",
+  "TIE": "Neizšķirts",
+  "RESULT": "Rezultāts"
 }

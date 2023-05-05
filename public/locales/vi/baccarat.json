@@ -14,5 +14,9 @@
   "cardRankings": "Xếp hạng bài",
   "cardRankingsText": "Trong baccarat, các lá bài từ 2 đến 9 có giá trị tương ứng với số điểm trên lá bài, các lá bài 10 và các lá bài hình thức tính là 0, và lá bài Át tính là 1.",
   "note": "Lưu ý",
-  "noteText": "Trong baccarat có thể có trường hợp hòa."
+  "noteText": "Trong baccarat có thể có trường hợp hòa.",
+  "PLAYER_WINS": "Người chơi thắng!",
+  "BANKER_WINS": "Ngân hàng thắng!",
+  "TIE": "Hòa!",
+  "RESULT": "Kết quả"
 }

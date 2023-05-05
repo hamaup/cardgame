@@ -258,27 +258,25 @@ const Baccarat = () => {
   }, [bankerHand]);
 
 
-
   const determineWinner = () => {
     const playerPoints = calculatePoints(playerHand);
     const bankerPoints = calculatePoints(bankerHand);
     let resultMessage = "";
 
     if (playerPoints > bankerPoints) {
-      resultMessage = "Player Wins!";
+      resultMessage = t("PLAYER_WINS");
     } else if (bankerPoints > playerPoints) {
-      resultMessage = "Banker Wins!";
+      resultMessage = t("BANKER_WINS");
     } else {
-      resultMessage = "It's a tie!";
+      resultMessage = t("TIE");
     }
 
     setResultMessage(resultMessage);
 
     // 結果表示に移行する
-    setGameStatus("result");
+    setGameStatus(t("RESULT"));
     setModalIsOpen(true);
   };
-
 
   // ゲームの状態や操作を返す
   return (

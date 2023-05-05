@@ -14,5 +14,9 @@
   "cardRankings": "Kortrankning",
   "cardRankingsText": "I baccarat har korten 2-9 sitt vanliga värde, 10:or och ansiktskort räknas som 0, och ess räknas som 1.",
   "note": "Observera",
-  "noteText": "Oavgjort är möjligt i baccarat."
+  "noteText": "Oavgjort är möjligt i baccarat.",
+  "PLAYER_WINS": "Spelaren vinner",
+  "BANKER_WINS": "Banken vinner",
+  "TIE": "Oavgjort",
+  "RESULT": "Resultat"
 }

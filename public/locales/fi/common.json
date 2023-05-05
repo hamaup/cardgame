@@ -2,9 +2,10 @@
   "title": "Korttipelikokoelma",
   "description": "Nauti erilaisista korttipeleistä!",
   "game": {
-  "blackjack": "Blackjack",
-  "guess-the-card": "Arvaa kortti",
-  "high-or-low": "Korkeampi vai matalampi",
-  "memory-game": "Muistipeli"
+    "blackjack": "Blackjack",
+    "guess-the-card": "Arvaa kortti",
+    "high-or-low": "Korkeampi vai matalampi",
+    "memory-game": "Muistipeli",
+    "baccarat": "Baccarat",
   }
 }

@@ -14,5 +14,9 @@
   "cardRankings": "Rangiranje karata",
   "cardRankingsText": "U baccaratu, karte 2-9 imaju svoju vrijednost, 10 i slike računaju se kao 0, a asovi kao 1.",
   "note": "Napomena",
-  "noteText": "Moguće su neodlučene igre u baccaratu."
+  "noteText": "Moguće su neodlučene igre u baccaratu.",
+  "PLAYER_WINS": "Igrač pobjeđuje!",
+  "BANKER_WINS": "Bankar pobjeđuje!",
+  "TIE": "Izjednačeno!",
+  "RESULT": "Rezultat"
 }

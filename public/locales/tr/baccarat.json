@@ -14,5 +14,9 @@
   "cardRankings": "Kart Sıralamaları",
   "cardRankingsText": "Bakarada, 2-9 kartları yüz değerleri kadar, 10'lar ve resimli kartlar 0 olarak, aslar 1 olarak sayılır.",
   "note": "Not",
-  "noteText": "Bakarada beraberlik mümkündür."
+  "noteText": "Bakarada beraberlik mümkündür.",
+  "PLAYER_WINS": "Oyuncu kazanır",
+  "BANKER_WINS": "Banka kazanır",
+  "TIE": "Beraberlik",
+  "RESULT": "Sonuç"
 }

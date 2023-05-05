@@ -14,5 +14,9 @@
   "cardRankings": "카드 순위",
   "cardRankingsText": "바카라에서, 2~9의 카드는 각자 숫자만큼의 값을 가지며, 10, J, Q, K는 0, A는 1의 값을 가집니다.",
   "note": "참고",
-  "noteText": "바카라에서는 비김이 가능합니다."
+  "noteText": "바카라에서는 비김이 가능합니다.",
+  "PLAYER_WINS": "플레이어 승리",
+  "BANKER_WINS": "뱅커 승리",
+  "TIE": "무승부",
+  "RESULT": "결과"
 }

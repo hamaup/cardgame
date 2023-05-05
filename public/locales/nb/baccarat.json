@@ -14,5 +14,9 @@
   "cardRankings": "Kort rangering",
   "cardRankingsText": "I baccarat har kortene 2-9 sin pålydende verdi, 10-ere og billedkort teller som 0, og ess teller som 1.",
   "note": "Merk",
-  "noteText": "Uavgjort er mulig i baccarat."
+  "noteText": "Uavgjort er mulig i baccarat.",
+  "PLAYER_WINS": "Spiller vinner",
+  "BANKER_WINS": "Bank vinner",
+  "TIE": "Uavgjort",
+  "RESULT": "Resultat"
 }

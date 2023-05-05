@@ -14,5 +14,9 @@
   "cardRankings": "Kortų reitingai",
   "cardRankingsText": "Bakaro žaidime kortos 2-9 turi savo nominalą, 10 ir karaliai skaičiuojami kaip 0, o tuzai - kaip 1.",
   "note": "Pastaba",
-  "noteText": "Bakaro žaidime galima lygiosiomis."
+  "noteText": "Bakaro žaidime galima lygiosiomis.",
+  "PLAYER_WINS": "Žaidėjas laimi",
+  "BANKER_WINS": "Bankas laimi",
+  "TIE": "Lygiosios",
+  "RESULT": "Rezultatas"
 }

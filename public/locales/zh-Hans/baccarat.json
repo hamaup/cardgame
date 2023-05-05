@@ -14,5 +14,9 @@
   "cardRankings": "牌面点数",
   "cardRankingsText": "百家乐中，2-9的牌面点数为其牌面点数，10和花牌的点数为0，A的点数为1。",
   "note": "注",
-  "noteText": "百家乐中可能会出现平局。"
+  "noteText": "百家乐中可能会出现平局。",
+  "PLAYER_WINS": "玩家获胜！",
+  "BANKER_WINS": "庄家获胜！",
+  "TIE": "平局！",
+  "RESULT": "结果"
 }

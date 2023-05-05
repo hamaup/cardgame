@@ -14,5 +14,9 @@
   "cardRankings": "Gildi spila",
   "cardRankingsText": "Í baccarat, eru spilin 2-9 með gildi þeirra töluna, 10 og gildistökin talið sem 0, og ess eru talið sem 1.",
   "note": "Athugið",
-  "noteText": "Jafntefli eru möguleg í baccarat."
+  "noteText": "Jafntefli eru möguleg í baccarat.",
+  "PLAYER_WINS": "Leikmaður vinnur!",
+  "BANKER_WINS": "Bankastjóri vinnur!",
+  "TIE": "Jafntefli!",
+  "RESULT": "Niðurstaða"
 }

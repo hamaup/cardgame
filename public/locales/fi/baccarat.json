@@ -14,5 +14,9 @@
   "cardRankings": "Korttien arvot",
   "cardRankingsText": "Baccaratissa korttien 2–9 arvo on kortin numero, 10 ja kuvakortit lasketaan nollaksi ja ässä lasketaan yhdeksi.",
   "note": "Huomio",
-  "noteText": "Baccaratissa tasapeli on mahdollinen."
-  }
+  "noteText": "Baccaratissa tasapeli on mahdollinen.",
+  "PLAYER_WINS": "Pelaaja voittaa!",
+  "BANKER_WINS": "Pankkiiri voittaa!",
+  "TIE": "Tasapeli!",
+  "RESULT": "Tulos"
+}

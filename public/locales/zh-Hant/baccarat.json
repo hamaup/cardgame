@@ -14,5 +14,9 @@
   "cardRankings": "牌面點數",
   "cardRankingsText": "在百家樂中，2-9的牌面點數為牌面的數值，10和面牌的點數為0，A的點數為1。",
   "note": "備註",
-  "noteText": "百家樂可能存在平局的情況。"
+  "noteText": "百家樂可能存在平局的情況。",
+  "PLAYER_WINS": "閒家勝利！",
+  "BANKER_WINS": "莊家勝利！",
+  "TIE": "和局！",
+  "RESULT": "結果"
 }

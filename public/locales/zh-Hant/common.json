@@ -5,7 +5,7 @@
     "blackjack": "二十一點",
     "guess-the-card": "猜牌遊戲",
     "high-or-low": "高低遊戲",
-    "memory-game": "記憶遊戲"
-  },
-  "winMessage": "恭喜你！你成功找到所有匹配的卡牌！"
+    "memory-game": "記憶遊戲",
+    "baccarat": "百家樂",
+  }
 }

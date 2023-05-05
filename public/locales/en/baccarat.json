@@ -14,5 +14,9 @@
   "cardRankings": "Card Rankings",
   "cardRankingsText": "In baccarat, the cards 2-9 have their face value, 10s and face cards count as 0, and aces count as 1.",
   "note": "Note",
-  "noteText": "Ties are possible in baccarat."
+  "noteText": "Ties are possible in baccarat.",
+  "PLAYER_WINS": "Player Wins!",
+  "BANKER_WINS": "Banker Wins!",
+  "TIE": "It's a tie!",
+  "RESULT": "Result"
 }

@@ -18,5 +18,8 @@
   "PLAYER_WINS": "Người chơi thắng!",
   "BANKER_WINS": "Ngân hàng thắng!",
   "TIE": "Hòa!",
-  "RESULT": "Kết quả"
+  "RESULT": "Kết quả",
+  "Banker": "Ngân hàng",
+  "Player": "Người chơi",
+  "Score": "Điểm số"
 }

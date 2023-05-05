@@ -14,5 +14,12 @@
   "cardRankings": "Kartenrangfolge",
   "cardRankingsText": "In Baccarat haben die Karten 2-9 ihren Nennwert, 10er und Bildkarten zählen als 0 und Asse zählen als 1.",
   "note": "Hinweis",
-  "noteText": "Unentschieden sind bei Baccarat möglich."
+  "noteText": "Unentschieden sind bei Baccarat möglich.",
+  "PLAYER_WINS": "Spieler gewinnt!",
+  "BANKER_WINS": "Bankier gewinnt!",
+  "TIE": "Unentschieden!",
+  "RESULT": "Ergebnis",
+  "Banker": "Banker",
+  "Player": "Spieler",
+  "Score": "Punkte"
 }

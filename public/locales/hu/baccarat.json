@@ -18,5 +18,8 @@
   "PLAYER_WINS": "A játékos nyer!",
   "BANKER_WINS": "A bank nyer!",
   "TIE": "Döntetlen!",
-  "RESULT": "Eredmény"
+  "RESULT": "Eredmény",
+  "Banker": "Bankár",
+  "Player": "Játékos",
+  "Score": "Eredmény"
 }

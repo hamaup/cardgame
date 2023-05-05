@@ -18,5 +18,8 @@
   "PLAYER_WINS": "Pelaaja voittaa!",
   "BANKER_WINS": "Pankkiiri voittaa!",
   "TIE": "Tasapeli!",
-  "RESULT": "Tulos"
+  "RESULT": "Tulos",
+  "Banker": "Pankkiiri",
+  "Player": "Pelaaja",
+  "Score": "Tulos"
 }

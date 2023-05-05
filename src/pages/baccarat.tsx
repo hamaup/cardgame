@@ -53,11 +53,12 @@ interface ResultProps {
 }
 
 const Result = ({ playerScore, bankerScore, resultMessage }: ResultProps) => {
+  const { t } = useTranslation('baccarat');
   return (
     <div className={styles.result}>
       <div className={styles.result_message}>{resultMessage}</div>
-      <h2>Player Score: {playerScore}</h2>
-      <h2>Banker Score: {bankerScore}</h2>
+      <h2>{t("Player")}{t("Score")}: {playerScore}</h2>
+      <h2>{t("Banker")}{t("Score")}: {bankerScore}</h2>
     </div>
   );
 };
@@ -274,7 +275,7 @@ const Baccarat = () => {
     setResultMessage(resultMessage);
 
     // 結果表示に移行する
-    setGameStatus(t("RESULT"));
+    setGameStatus(t("RESULT").toString());
     setModalIsOpen(true);
   };
 
@@ -297,14 +298,14 @@ const Baccarat = () => {
           <div className="game-container">
             <div className={styles.playing}>
               <div className={styles.hand}>
-                <h2>Banker</h2>
+                <h2>{t("Banker")}</h2>
                 <Hand hand={bankerHand} />
-                <h3>Score: {bankerScore}</h3>
+                <h3>{t("Score")}: {bankerScore}</h3>
               </div>
               <div className={styles.hand}>
-                <h2>Player</h2>
+                <h2>{t("Player")}</h2>
                 <Hand hand={playerHand} />
-                <h3>Score: {playerScore}</h3>
+                <h3>{t("Score")}: {playerScore}</h3>
               </div>
             </div>
             <div className="input-container">

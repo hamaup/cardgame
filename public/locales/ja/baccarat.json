@@ -18,5 +18,8 @@
   "PLAYER_WINS": "プレイヤーの勝利！",
   "BANKER_WINS": "バンカーの勝利！",
   "TIE": "引き分け！",
-  "RESULT": "結果"
+  "RESULT": "結果",
+  "Banker": "バンカー",
+  "Player": "プレイヤー",
+  "Score": "スコア"
 }

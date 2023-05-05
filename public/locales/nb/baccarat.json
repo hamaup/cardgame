@@ -18,5 +18,8 @@
   "PLAYER_WINS": "Spiller vinner",
   "BANKER_WINS": "Bank vinner",
   "TIE": "Uavgjort",
-  "RESULT": "Resultat"
+  "RESULT": "Resultat",
+  "Banker": "Bankmann",
+  "Player": "Spiller",
+  "Score": "Poengsum"
 }

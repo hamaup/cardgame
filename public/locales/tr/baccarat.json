@@ -18,5 +18,8 @@
   "PLAYER_WINS": "Oyuncu kazanır",
   "BANKER_WINS": "Banka kazanır",
   "TIE": "Beraberlik",
-  "RESULT": "Sonuç"
+  "RESULT": "Sonuç",
+  "Banker": "Bankacı",
+  "Player": "Oyuncu",
+  "Score": "Puan"
 }

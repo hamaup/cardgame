@@ -18,5 +18,8 @@
   "PLAYER_WINS": "閒家勝利！",
   "BANKER_WINS": "莊家勝利！",
   "TIE": "和局！",
-  "RESULT": "結果"
+  "RESULT": "結果",
+  "Banker": "莊家",
+  "Player": "閒家",
+  "Score": "得分"
 }

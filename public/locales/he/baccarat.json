@@ -18,5 +18,8 @@
   "PLAYER_WINS": "השחקן מנצח!",
   "BANKER_WINS": "הבנק מנצח!",
   "TIE": "תיקו!",
-  "RESULT": "תוצאה"
+  "RESULT": "תוצאה",
+  "Banker": "בנקאי",
+  "Player": "שחקן",
+  "Score": "תוצאה"
 }

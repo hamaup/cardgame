@@ -18,5 +18,8 @@
   "PLAYER_WINS": "플레이어 승리",
   "BANKER_WINS": "뱅커 승리",
   "TIE": "무승부",
-  "RESULT": "결과"
+  "RESULT": "결과",
+  "Banker": "뱅커",
+  "Player": "플레이어",
+  "Score": "점수"
 }

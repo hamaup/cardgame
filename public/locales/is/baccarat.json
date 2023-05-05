@@ -18,5 +18,8 @@
   "PLAYER_WINS": "Leikmaður vinnur!",
   "BANKER_WINS": "Bankastjóri vinnur!",
   "TIE": "Jafntefli!",
-  "RESULT": "Niðurstaða"
+  "RESULT": "Niðurstaða",
+  "Banker": "Bankari",
+  "Player": "Leikmaður",
+  "Score": "Niðurstaða"
 }

@@ -15,8 +15,11 @@
   "cardRankingsText": "V bakaratu mají karty 2-9 svou nominální hodnotu, 10 a obrázky mají hodnotu 0 a esa hodnotu 1.",
   "note": "Poznámka",
   "noteText": "V bakaratu je možná remíza.",
-  "PLAYER_WINS": "খেলোয়াড় জিতে!",
-  "BANKER_WINS": "ব্যাংকার জিতে!",
-  "TIE": "টাই",
-  "RESULT": "ফলাফল"
+  "PLAYER_WINS": "Výhra hráče!",
+  "BANKER_WINS": "Výhra bankéře!",
+  "TIE": "Remíza!",
+  "RESULT": "Výsledek",
+  "Banker": "Bankéř",
+  "Player": "Hráč",
+  "Score": "Skóre"
 }

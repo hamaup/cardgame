@@ -18,5 +18,8 @@
   "PLAYER_WINS": "Igrač pobjeđuje!",
   "BANKER_WINS": "Bankar pobjeđuje!",
   "TIE": "Izjednačeno!",
-  "RESULT": "Rezultat"
+  "RESULT": "Rezultat",
+  "Banker": "Bankar",
+  "Player": "Igrač",
+  "Score": "Rezultat"
 }

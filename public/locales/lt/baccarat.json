@@ -18,5 +18,8 @@
   "PLAYER_WINS": "Žaidėjas laimi",
   "BANKER_WINS": "Bankas laimi",
   "TIE": "Lygiosios",
-  "RESULT": "Rezultatas"
+  "RESULT": "Rezultatas",
+  "Banker": "Bankininkas",
+  "Player": "Žaidėjas",
+  "Score": "Taškai"
 }

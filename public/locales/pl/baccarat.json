@@ -18,5 +18,8 @@
   "PLAYER_WINS": "Gracz wygrywa",
   "BANKER_WINS": "Bank wygrywa",
   "TIE": "Remis",
-  "RESULT": "Wynik"
+  "RESULT": "Wynik",
+  "Banker": "Bankier",
+  "Player": "Gracz",
+  "Score": "Wynik"
 }

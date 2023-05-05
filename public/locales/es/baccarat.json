@@ -18,5 +18,8 @@
   "PLAYER_WINS": "¡El jugador gana!",
   "BANKER_WINS": "¡El banquero gana!",
   "TIE": "Empate",
-  "RESULT": "Resultado"
+  "RESULT": "Resultado",
+  "Banker": "Banquero",
+  "Player": "Jugador",
+  "Score": "Puntuación"
 }

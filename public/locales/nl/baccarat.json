@@ -18,5 +18,8 @@
   "PLAYER_WINS": "Speler wint",
   "BANKER_WINS": "Bank wint",
   "TIE": "Gelijkspel",
-  "RESULT": "Resultaat"
+  "RESULT": "Resultaat",
+  "Banker": "Bankier",
+  "Player": "Speler",
+  "Score": "Score"
 }

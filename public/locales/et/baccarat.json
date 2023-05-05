@@ -18,5 +18,8 @@
   "PLAYER_WINS": "Mängija võidab!",
   "BANKER_WINS": "Pankur võidab!",
   "TIE": "Viik!",
-  "RESULT": "Tulemus"
+  "RESULT": "Tulemus",
+  "Banker": "Pankur",
+  "Player": "Mängija",
+  "Score": "Tulemus"
 }

@@ -18,5 +18,8 @@
   "PLAYER_WINS": "Hráč vyhráva",
   "BANKER_WINS": "Banka vyhráva",
   "TIE": "Remíza",
-  "RESULT": "Výsledok"
+  "RESULT": "Výsledok",
+  "Banker": "Bankár",
+  "Player": "Hráč",
+  "Score": "Skóre"
 }

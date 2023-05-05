@@ -14,5 +14,12 @@
   "cardRankings": "Clasamentul cărților",
   "cardRankingsText": "În baccarat, cărțile 2-9 au valoarea nominală, 10 și cărțile cu figuri contează ca 0, iar ași contează ca 1.",
   "note": "Notă",
-  "noteText": "În baccarat sunt posibile egalurile."
+  "noteText": "În baccarat sunt posibile egalurile.",
+  "PLAYER_WINS": "Jucătorul câștigă!",
+  "BANKER_WINS": "Bancherul câștigă!",
+  "TIE": "Egalitate!",
+  "RESULT": "Rezultat",
+  "Banker": "Bancher",
+  "Player": "Jucător",
+  "Score": "Scor"
 }

@@ -18,5 +18,8 @@
   "PLAYER_WINS": "Spēlētājs uzvar",
   "BANKER_WINS": "Banka uzvar",
   "TIE": "Neizšķirts",
-  "RESULT": "Rezultāts"
+  "RESULT": "Rezultāts",
+  "Banker": "Bankieri",
+  "Player": "Spēlētājs",
+  "Score": "Rezultāts"
 }

@@ -18,5 +18,8 @@
   "PLAYER_WINS": "Player Wins!",
   "BANKER_WINS": "Banker Wins!",
   "TIE": "It's a tie!",
-  "RESULT": "Result"
+  "RESULT": "Result",
+  "Banker": "Banker",
+  "Player": "Player",
+  "Score": "Score"
 }

@@ -1,0 +1,18 @@
+{
+  "title": "Baccarat",
+  "description": "Yksinkertainen baccarat-peli.",
+  "welcomeMessage": "Tervetuloa pelaamaan baccaratia!",
+  "dealThirdCardButton": "Jaa kolmas kortti",
+  "rulesTitle": "Säännöt",
+  "objective": "Tavoite",
+  "objectiveText": "Pelin tavoitteena on ennustaa, kummalla kädellä on korkeampi pistemäärä: pelaajalla vai pankkiirilla.",
+  "howToPlay": "Pelin kulku",
+  "rule1": "Ennen korttien jakamista sinun on asetettava panoksesi joko pelaajakädelle tai pankkiirikädelle.",
+  "rule2": "Kaksi korttia jaetaan sekä pelaajakädelle että pankkiirikädelle. Korttien arvot lasketaan yhteen, ja käsi, jolla on korkeampi kokonaispistemäärä, voittaa.",
+  "rule3": "Jos pelaajakäden kokonaispistemäärä on 8 tai 9, se katsotaan luonnolliseksi voitoksi, eikä enää kortteja jaeta.",
+  "rule4": "Jos pelaajakäsi tai pankkiirikäsi ei saavuta luonnollista voittoa, kolmas kortti voidaan jakaa riippuen ensimmäisten kahden kortin arvoista.",
+  "cardRankings": "Korttien arvot",
+  "cardRankingsText": "Baccaratissa korttien 2–9 arvo on kortin numero, 10 ja kuvakortit lasketaan nollaksi ja ässä lasketaan yhdeksi.",
+  "note": "Huomio",
+  "noteText": "Baccaratissa tasapeli on mahdollinen."
+  }

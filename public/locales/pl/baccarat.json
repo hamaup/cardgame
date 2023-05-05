@@ -1,0 +1,18 @@
+{
+  "title": "Bakarat",
+  "description": "Prosta gra w bakarata.",
+  "welcomeMessage": "Witaj w grze Bakarat!",
+  "dealThirdCardButton": "Pobierz Trzecią Kartę",
+  "rulesTitle": "Zasady",
+  "objective": "Cel",
+  "objectiveText": "Celem gry jest przewidzenie, która ręka będzie miała wyższą sumę punktów: ręka gracza czy ręka bankiera.",
+  "howToPlay": "Jak Grać",
+  "rule1": "Przed rozdaniem kart musisz postawić zakład na jedną z rąk: gracza lub bankiera.",
+  "rule2": "Do ręki gracza i bankiera rozdaje się po dwie karty. Sumy punktów z obu rąk są porównywane, a wygrywa ta, która ma wyższą sumę.",
+  "rule3": "Jeśli suma punktów ręki gracza wynosi 8 lub 9, jest to naturalne zwycięstwo i nie są rozdawane żadne inne karty.",
+  "rule4": "Jeśli ani ręka gracza, ani ręka bankiera nie ma naturalnego zwycięstwa, trzecia karta może być rozdawana w zależności od wartości pierwszych dwóch kart.",
+  "cardRankings": "Hierarchia Kart",
+  "cardRankingsText": "W bakaracie karty od 2 do 9 mają wartość odpowiadającą ich liczbie, 10 i figury są warte 0 punktów, a asy są warte 1 punkt.",
+  "note": "Uwaga",
+  "noteText": "W bakaracie możliwe są remisy."
+}

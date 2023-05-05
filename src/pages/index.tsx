@@ -37,6 +37,10 @@ const Home: NextPage = () => {
               <span className="text-blue-500 hover:text-blue-700 cursor-pointer">{t('game.memory-game')}
               </span>
             </Link>
+            <Link href="/solitaire" as={`/solitaire`}>
+              <span className="text-blue-500 hover:text-blue-700 cursor-pointer">{t('game.solitaire')}
+              </span>
+            </Link>
           </div>
         </main>
       </div >

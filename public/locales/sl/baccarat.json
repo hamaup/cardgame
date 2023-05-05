@@ -1,0 +1,18 @@
+{
+  "title": "Bakara",
+  "description": "Enostavna igra bakare.",
+  "welcomeMessage": "Dobrodošli v igri Bakara!",
+  "dealThirdCardButton": "Razdeli tretjo karto",
+  "rulesTitle": "Pravila",
+  "objective": "Cilj igre",
+  "objectiveText": "Cilj igre je napovedati, katera roka bo imela višjo vsoto točk: roka igralca ali roka bankirja.",
+  "howToPlay": "Kako igrati",
+  "rule1": "Preden se karte razdelijo, morate staviti na roko igralca ali roko bankirja.",
+  "rule2": "Obema rokama igralca in bankirja se razdelita dve karti. Vrednosti kart se seštejejo in roka z višjo skupno vsoto je zmagovalec.",
+  "rule3": "Če ima roka igralca skupno vsoto 8 ali 9, se šteje za naravno zmago in ne razdelijo se nobene karte več.",
+  "rule4": "Če nobena od rok - igralčeva ali bankirjeva - nima naravne zmage, se lahko razdeli tretja karta glede na vrednosti prvih dveh kart.",
+  "cardRankings": "Razvrstitev kart",
+  "cardRankingsText": "V bakari karti od 2 do 9 predstavljajo svojo vrednost, karte od 10 do kralja imajo vrednost 0, as pa 1.",
+  "note": "Opomba",
+  "noteText": "V bakari je možen neodločen izid."
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Baccarat",
+  "description": "Einfalt baccarat leikur.",
+  "welcomeMessage": "Velkomin í baccarat!",
+  "dealThirdCardButton": "Deila þriðju spili",
+  "rulesTitle": "Reglur",
+  "objective": "Markmið",
+  "objectiveText": "Markmið leiksins er að spá í hvorn höndina mun eiga hærri stigafjölda: spilari hönd eða bankahönd.",
+  "howToPlay": "Leikreglur",
+  "rule1": "Fyrir spilin eru dregnir verðlaun á entinu spilara hönd eða bankahönd.",
+  "rule2": "Tveir spil eru dregnir í bæði spilara hönd og bankahönd. Gildi spila eru lagðar saman og höndin með hærri stigafjölda vinnur.",
+  "rule3": "Ef spilari hönd hefur samtals stigafjölda 8 eða 9, er það talinn sem náttúrulegur sigur og engin spil eru dregnir meira.",
+  "rule4": "Ef hvorki spilarahönd né bankahönd hafa náttúrulegan sigur, er hægt að draga þriðja spilið eftir gildi fyrstu tveggja spila.",
+  "cardRankings": "Gildi spila",
+  "cardRankingsText": "Í baccarat, eru spilin 2-9 með gildi þeirra töluna, 10 og gildistökin talið sem 0, og ess eru talið sem 1.",
+  "note": "Athugið",
+  "noteText": "Jafntefli eru möguleg í baccarat."
+}

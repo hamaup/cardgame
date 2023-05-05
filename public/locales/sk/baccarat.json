@@ -1,0 +1,18 @@
+{
+  "title": "Bakará",
+  "description": "Jednoduchá hra bakará.",
+  "welcomeMessage": "Vitajte v bakará!",
+  "dealThirdCardButton": "Rozdať tretiu kartu",
+  "rulesTitle": "Pravidlá",
+  "objective": "Cieľ",
+  "objectiveText": "Cieľom hry je predpovedať, ktorá ruka bude mať vyšší počet bodov: hráčova ruka alebo bankérová ruka.",
+  "howToPlay": "Ako hrať",
+  "rule1": "Pred rozdávaním kariet musíte položiť svoju stávku na hráčovu ruku alebo bankérovu ruku.",
+  "rule2": "Na hráčovu ruku aj na bankérovu ruku sa rozdajú dve karty. Hodnoty kariet sa sčítajú a ruka s vyšším celkovým počtom bodov vyhrá.",
+  "rule3": "Ak má hráčova ruka súčet 8 alebo 9, považuje sa to za prírodné víťazstvo a ďalšie karty sa nerozdávajú.",
+  "rule4": "Ak ani hráčova ruka ani bankérová ruka nemajú prírodné víťazstvo, môže sa rozdať tretia karta v závislosti od hodnoty prvých dvoch kariet.",
+  "cardRankings": "Hodnoty kariet",
+  "cardRankingsText": "V bakará majú karty 2-9 svoju nominálnu hodnotu, 10 a tvárové karty sa počítajú ako 0 a esa sa počítajú ako 1.",
+  "note": "Poznámka",
+  "noteText": "V bakará môže dôjsť k remíze."
+}

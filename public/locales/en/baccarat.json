@@ -1,0 +1,18 @@
+{
+  "title": "Baccarat",
+  "description": "Enjoy a simple game of baccarat! Aim for a higher point total than the banker hand!",
+  "welcomeMessage": "Welcome to Baccarat!",
+  "dealThirdCardButton": "Deal Third Card",
+  "rulesTitle": "Rules",
+  "objective": "Objective",
+  "objectiveText": "The objective of the game is to predict which hand will have a higher point total: the player hand or the banker hand.",
+  "howToPlay": "How to Play",
+  "rule1": "Before the cards are dealt, you must place your bet on either the player hand or the banker hand.",
+  "rule2": "Two cards are dealt to both the player hand and the banker hand. The values of the cards are added together, and the hand with the higher total is the winner.",
+  "rule3": "If the player hand has a total of 8 or 9, it is considered a natural win and no more cards are dealt.",
+  "rule4": "If neither the player hand nor the banker hand has a natural win, a third card may be dealt depending on the values of the first two cards.",
+  "cardRankings": "Card Rankings",
+  "cardRankingsText": "In baccarat, the cards 2-9 have their face value, 10s and face cards count as 0, and aces count as 1.",
+  "note": "Note",
+  "noteText": "Ties are possible in baccarat."
+}

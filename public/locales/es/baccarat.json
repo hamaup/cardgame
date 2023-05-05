@@ -1,0 +1,18 @@
+{
+  "title": "Baccarat",
+  "description": "Un juego simple de baccarat.",
+  "welcomeMessage": "¡Bienvenido a Baccarat!",
+  "dealThirdCardButton": "Sacar tercera carta",
+  "rulesTitle": "Reglas",
+  "objective": "Objetivo",
+  "objectiveText": "El objetivo del juego es predecir qué mano tendrá un total de puntos más alto: la mano del jugador o la mano del banquero.",
+  "howToPlay": "Cómo jugar",
+  "rule1": "Antes de repartir las cartas, debes hacer tu apuesta en la mano del jugador o la mano del banquero.",
+  "rule2": "Se reparten dos cartas tanto a la mano del jugador como a la mano del banquero. Se suman los valores de las cartas y la mano con el total más alto es la ganadora.",
+  "rule3": "Si la mano del jugador tiene un total de 8 o 9, se considera una victoria natural y no se reparten más cartas.",
+  "rule4": "Si ni la mano del jugador ni la mano del banquero tienen una victoria natural, se puede repartir una tercera carta dependiendo de los valores de las dos primeras cartas.",
+  "cardRankings": "Clasificación de cartas",
+  "cardRankingsText": "En el baccarat, las cartas del 2 al 9 tienen su valor nominal, las cartas con valor de 10 y las figuras cuentan como 0, y los ases cuentan como 1.",
+  "note": "Nota",
+  "noteText": "En el baccarat es posible que haya empate."
+}

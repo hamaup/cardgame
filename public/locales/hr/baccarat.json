@@ -1,0 +1,18 @@
+{
+  "title": "Baccarat",
+  "description": "Jednostavna igra baccarat.",
+  "welcomeMessage": "Dobrodošli u baccarat!",
+  "dealThirdCardButton": "Podijeli treću kartu",
+  "rulesTitle": "Pravila",
+  "objective": "Cilj",
+  "objectiveText": "Cilj igre je predvidjeti koja će ruka imati više bodova: igračeva ruka ili bankarska ruka.",
+  "howToPlay": "Kako igrati",
+  "rule1": "Prije nego što se karte podijele, morate staviti svoju okladu na igračevu ili bankarsku ruku.",
+  "rule2": "Igračeva ruka i bankarska ruka dobivaju po dvije karte. Vrijednosti karata se zbrajaju, a ruka s višim ukupnim brojem bodova je pobjednik.",
+  "rule3": "Ako igračeva ruka ima ukupno 8 ili 9, smatra se prirodnim pobjednikom i ne dijele se više karte.",
+  "rule4": "Ako ni igračeva ruka ni bankarska ruka nisu prirodni pobjednik, može se podijeliti treća karta ovisno o vrijednostima prve dvije karte.",
+  "cardRankings": "Rangiranje karata",
+  "cardRankingsText": "U baccaratu, karte 2-9 imaju svoju vrijednost, 10 i slike računaju se kao 0, a asovi kao 1.",
+  "note": "Napomena",
+  "noteText": "Moguće su neodlučene igre u baccaratu."
+}

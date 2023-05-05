@@ -1,0 +1,18 @@
+{
+  "title": "Bakara",
+  "description": "Basit bir bakara oyunu.",
+  "welcomeMessage": "Bakara'ya hoş geldiniz!",
+  "dealThirdCardButton": "Üçüncü Kartı Ver",
+  "rulesTitle": "Kurallar",
+  "objective": "Amaç",
+  "objectiveText": "Oyunun amacı, hangi elin daha yüksek bir toplam puana sahip olacağını tahmin etmektir: oyuncu eli mi yoksa bankacı eli mi?",
+  "howToPlay": "Nasıl Oynanır?",
+  "rule1": "Kartlar dağıtılmadan önce, bahsinizi oyuncu eli veya bankacı eline koymanız gerekir.",
+  "rule2": "Oyuncu eline ve bankacı eline her birine iki kart dağıtılır. Kartların değerleri toplanır ve daha yüksek toplama sahip olan el kazanır.",
+  "rule3": "Eğer oyuncu elinin toplamı 8 veya 9 ise, doğal bir kazanç olarak kabul edilir ve daha fazla kart dağıtılmaz.",
+  "rule4": "Ne oyuncu eli ne de bankacı eli doğal bir kazanç elde etmediyse, ilk iki kartın değerlerine bağlı olarak üçüncü bir kart dağıtılabilir.",
+  "cardRankings": "Kart Sıralamaları",
+  "cardRankingsText": "Bakarada, 2-9 kartları yüz değerleri kadar, 10'lar ve resimli kartlar 0 olarak, aslar 1 olarak sayılır.",
+  "note": "Not",
+  "noteText": "Bakarada beraberlik mümkündür."
+}

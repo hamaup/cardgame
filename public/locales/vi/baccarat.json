@@ -1,0 +1,18 @@
+{
+  "title": "Baccarat",
+  "description": "Trò chơi baccarat đơn giản.",
+  "welcomeMessage": "Chào mừng đến với Baccarat!",
+  "dealThirdCardButton": "Rút thêm lá bài",
+  "rulesTitle": "Quy tắc",
+  "objective": "Mục tiêu",
+  "objectiveText": "Mục tiêu của trò chơi là dự đoán bộ bài nào sẽ có tổng điểm cao hơn: bộ bài của người chơi hay của ngân hàng.",
+  "howToPlay": "Cách chơi",
+  "rule1": "Trước khi bài được chia, bạn phải đặt cược vào bộ bài của người chơi hoặc của ngân hàng.",
+  "rule2": "Hai lá bài được chia cho cả bộ bài của người chơi và của ngân hàng. Giá trị của các lá bài được cộng lại và bộ bài có tổng điểm cao hơn sẽ thắng.",
+  "rule3": "Nếu tổng điểm của bộ bài của người chơi là 8 hoặc 9, đó được coi là chiến thắng tự nhiên và không cần rút thêm lá bài nào nữa.",
+  "rule4": "Nếu cả bộ bài của người chơi và của ngân hàng đều không có chiến thắng tự nhiên, thì có thể rút thêm lá bài thứ ba tùy thuộc vào giá trị của hai lá bài đầu tiên.",
+  "cardRankings": "Xếp hạng bài",
+  "cardRankingsText": "Trong baccarat, các lá bài từ 2 đến 9 có giá trị tương ứng với số điểm trên lá bài, các lá bài 10 và các lá bài hình thức tính là 0, và lá bài Át tính là 1.",
+  "note": "Lưu ý",
+  "noteText": "Trong baccarat có thể có trường hợp hòa."
+}

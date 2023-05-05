@@ -1,0 +1,18 @@
+{
+  "title": "Bakara",
+  "description": "Paprastas bakara žaidimas.",
+  "welcomeMessage": "Sveiki atvykę į Bakarą!",
+  "dealThirdCardButton": "Padalyti trečią kortą",
+  "rulesTitle": "Taisyklės",
+  "objective": "Tikslo",
+  "objectiveText": "Žaidimo tikslas yra atspėti, kuria ranka bus didesnis taškų skaičius: žaidėjo ranka ar bankininko ranka.",
+  "howToPlay": "Kaip žaisti",
+  "rule1": "Prieš kortas dalijant, turite statyti ant žaidėjo rankos ar bankininko rankos.",
+  "rule2": "Žaidėjo rankai ir bankininko rankai yra išdalintos po 2 kortų. Kortų reikšmės sudedamos, o ranka su didesniu rezultatu yra laimėtoja.",
+  "rule3": "Jei žaidėjo rankos taškų skaičius yra 8 ar 9, tai laikoma natūralia pergalė ir daugiau kortų nėra dalijama.",
+  "rule4": "Jei nei žaidėjo ranka, nei bankininko ranka neturi natūralios pergalės, pagal pirmų dviejų kortų reikšmes, gali būti padalinta trečia korta.",
+  "cardRankings": "Kortų reitingai",
+  "cardRankingsText": "Bakaro žaidime kortos 2-9 turi savo nominalą, 10 ir karaliai skaičiuojami kaip 0, o tuzai - kaip 1.",
+  "note": "Pastaba",
+  "noteText": "Bakaro žaidime galima lygiosiomis."
+}

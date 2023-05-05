@@ -1,0 +1,18 @@
+{
+  "title": "Baccarat",
+  "description": "Un joc simplu de baccarat.",
+  "welcomeMessage": "Bun venit la Baccarat!",
+  "dealThirdCardButton": "Împarte a treia carte",
+  "rulesTitle": "Reguli",
+  "objective": "Obiectivul",
+  "objectiveText": "Obiectivul jocului este să prezici care mână va avea un total de puncte mai mare: mâna jucătorului sau mâna bancherului.",
+  "howToPlay": "Cum se joacă",
+  "rule1": "Înainte ca cărțile să fie împărțite, trebuie să plasați pariul pe mâna jucătorului sau pe mâna bancherului.",
+  "rule2": "Se împart două cărți atât pentru mâna jucătorului, cât și pentru mâna bancherului. Valorile cărților sunt adunate și mâna cu totalul mai mare este câștigătoarea.",
+  "rule3": "Dacă mâna jucătorului are un total de 8 sau 9, este considerată o victorie naturală și nu se mai împart cărți.",
+  "rule4": "Dacă nici mâna jucătorului, nici mâna bancherului nu au o victorie naturală, o a treia carte poate fi împărțită în funcție de valorile primelor două cărți.",
+  "cardRankings": "Clasamentul cărților",
+  "cardRankingsText": "În baccarat, cărțile 2-9 au valoarea nominală, 10 și cărțile cu figuri contează ca 0, iar ași contează ca 1.",
+  "note": "Notă",
+  "noteText": "În baccarat sunt posibile egalurile."
+}

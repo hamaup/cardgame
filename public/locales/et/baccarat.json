@@ -1,0 +1,18 @@
+{
+  "title": "Baccarat",
+  "description": "Lihtne baccarat mäng.",
+  "welcomeMessage": "Tere tulemast baccarat mängu!",
+  "dealThirdCardButton": "Võta kolmas kaart",
+  "rulesTitle": "Reeglid",
+  "objective": "Eesmärk",
+  "objectiveText": "Mängu eesmärk on ennustada, milline käsi saab kõrgema punktisumma: kas mängija käsi või pankuri käsi.",
+  "howToPlay": "Kuidas mängida",
+  "rule1": "Enne kaartide jagamist peate panustama kas mängija või pankuri käele.",
+  "rule2": "Mängija ja pankuri kätte jagatakse kaks kaarti. Kaartide väärtused liidetakse kokku ja käsi, millel on suurem punktisumma, võidab.",
+  "rule3": "Kui mängija käel on punktide summa 8 või 9, loetakse see loomulikuks võiduks ega jagata rohkem kaarte.",
+  "rule4": "Kui ei mängija ega pankuri käel pole loomulikku võitu, võib sõltuvalt esimeste kaartide väärtustest jagada kolmanda kaardi.",
+  "cardRankings": "Kaartide väärtused",
+  "cardRankingsText": "Baccarat'is on kaartide väärtused 2–9 võrdelised nende numbrilise väärtusega, kümned ja näokaardid loetakse 0-ks ning ässad loetakse 1-ks.",
+  "note": "Märkus",
+  "noteText": "Baccarat'is võivad mängud lõppeda viigiga."
+  }

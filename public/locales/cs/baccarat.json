@@ -1,0 +1,18 @@
+{
+  "title": "Bakarat",
+  "description": "Jednoduchá hra bakaratu.",
+  "welcomeMessage": "Vítejte u bakaratu!",
+  "dealThirdCardButton": "Rozdat třetí kartu",
+  "rulesTitle": "Pravidla",
+  "objective": "Cíl",
+  "objectiveText": "Cílem hry je předpovědět, která ruka bude mít vyšší počet bodů: hráčova nebo bankéřova ruka.",
+  "howToPlay": "Jak hrát",
+  "rule1": "Před rozdáním karet musíte vsadit na hráčovu nebo bankéřovu ruku.",
+  "rule2": "Oběma hráčům se rozdají dvě karty. Hodnoty karet se sčítají a ruka s vyšším součtem bodů vyhrává.",
+  "rule3": "Pokud má hráčova ruka celkový počet bodů 8 nebo 9, považuje se to za přirozenou výhru a další karty se nevydávají.",
+  "rule4": "Pokud ani hráčova ani bankéřova ruka nemají přirozenou výhru, může být rozdána třetí karta v závislosti na hodnotách prvních dvou karet.",
+  "cardRankings": "Hodnocení karet",
+  "cardRankingsText": "V bakaratu mají karty 2-9 svou nominální hodnotu, 10 a obrázky mají hodnotu 0 a esa hodnotu 1.",
+  "note": "Poznámka",
+  "noteText": "V bakaratu je možná remíza."
+}

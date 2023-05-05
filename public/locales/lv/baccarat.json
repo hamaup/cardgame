@@ -1,0 +1,18 @@
+{
+  "title": "Baccarat",
+  "description": "Vienkārša baccarat spēle.",
+  "welcomeMessage": "Laipni lūdzam Baccarat!",
+  "dealThirdCardButton": "Izspēlēt trešo karti",
+  "rulesTitle": "Noteikumi",
+  "objective": "Mērķis",
+  "objectiveText": "Spēles mērķis ir paredzēt, kura roka būs ar lielāku punktu skaitu: spēlētāja roka vai bankiera roka.",
+  "howToPlay": "Kā spēlēt",
+  "rule1": "Pirms kartes tiek izdalītas, jums jāliek likme uz vai nu spēlētāja roku, vai bankiera roku.",
+  "rule2": "Abām rokām, spēlētāja roku un bankiera roku, tiek izdalītas divas kartes. Kartes vērtības tiek saskaitītas, un uzvarētājs ir tas, kura summa ir lielāka.",
+  "rule3": "Ja spēlētāja rokai ir 8 vai 9 punkti, tas tiek uzskatīts par dabisku uzvaru un vairs nav jāizdala kārtis.",
+  "rule4": "Ja ne spēlētāja roka, ne bankiera roka nav dabiski uzvarētāji, trešā karte var tikt izspēlēta atkarībā no pirmo divu karšu vērtībām.",
+  "cardRankings": "Kartes rangu saraksts",
+  "cardRankingsText": "Baccarat spēlē, 2-9 kārtis skaita savu vērtību, 10 un pārējās figūru kārtis ir vērtības 0, bet tūkstoš spēle kartēs ir vērtība 1.",
+  "note": "Piezīme",
+  "noteText": "Baccarat spēlē ir iespējams izcīnīt neizšķirtu."
+}

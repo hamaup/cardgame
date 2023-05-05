@@ -1,0 +1,18 @@
+{
+  "title": "Baccarat",
+  "description": "Et enkelt baccarat-spill.",
+  "welcomeMessage": "Velkommen til Baccarat!",
+  "dealThirdCardButton": "Trekk tredje kort",
+  "rulesTitle": "Regler",
+  "objective": "Mål",
+  "objectiveText": "Målet med spillet er å forutsi hvilken hånd som vil ha en høyere poengsum: spillerens hånd eller bankens hånd.",
+  "howToPlay": "Slik spiller du",
+  "rule1": "Før kortene deles ut, må du plassere innsatsen din på enten spillerhånden eller bankhånden.",
+  "rule2": "To kort deles ut til både spillerhånden og bankhånden. Kortenes verdier legges sammen, og hånden med høyest total er vinneren.",
+  "rule3": "Hvis spillerhånden har en total på 8 eller 9, regnes det som en naturlig seier, og ingen flere kort deles ut.",
+  "rule4": "Hvis verken spillerhånden eller bankhånden har en naturlig seier, kan et tredje kort trekkes avhengig av verdiene på de to første kortene.",
+  "cardRankings": "Kort rangering",
+  "cardRankingsText": "I baccarat har kortene 2-9 sin pålydende verdi, 10-ere og billedkort teller som 0, og ess teller som 1.",
+  "note": "Merk",
+  "noteText": "Uavgjort er mulig i baccarat."
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Baccarat",
+  "description": "Een eenvoudig baccaratspel.",
+  "welcomeMessage": "Welkom bij Baccarat!",
+  "dealThirdCardButton": "Derde kaart delen",
+  "rulesTitle": "Regels",
+  "objective": "Doel",
+  "objectiveText": "Het doel van het spel is om te voorspellen welke hand een hogere puntentotaal zal hebben: de hand van de speler of de hand van de bankier.",
+  "howToPlay": "Hoe te spelen",
+  "rule1": "Voordat de kaarten worden gedeeld, moet u uw inzet plaatsen op de hand van de speler of de hand van de bankier.",
+  "rule2": "Er worden twee kaarten uitgedeeld aan zowel de hand van de speler als de hand van de bankier. De waarden van de kaarten worden bij elkaar opgeteld en de hand met het hoogste totaal wint.",
+  "rule3": "Als de hand van de speler een totaal heeft van 8 of 9, wordt dit beschouwd als een natuurlijke overwinning en worden er geen kaarten meer gedeeld.",
+  "rule4": "Als zowel de hand van de speler als de hand van de bankier geen natuurlijke overwinning hebben, kan er een derde kaart worden gedeeld, afhankelijk van de waarden van de eerste twee kaarten.",
+  "cardRankings": "Kaartwaarderingen",
+  "cardRankingsText": "Bij baccarat hebben kaarten 2-9 hun eigen waarde, 10'en en gezichtskaarten tellen als 0, en azen tellen als 1.",
+  "note": "Opmerking",
+  "noteText": "Gelijkspel is mogelijk bij baccarat."
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Bacará",
+  "description": "Um simples jogo de bacará.",
+  "welcomeMessage": "Bem-vindo ao Bacará!",
+  "dealThirdCardButton": "Receber Terceira Carta",
+  "rulesTitle": "Regras",
+  "objective": "Objetivo",
+  "objectiveText": "O objetivo do jogo é prever qual mão terá um total de pontos maior: a mão do jogador ou a mão do banqueiro.",
+  "howToPlay": "Como Jogar",
+  "rule1": "Antes das cartas serem distribuídas, você deve fazer sua aposta na mão do jogador ou na mão do banqueiro.",
+  "rule2": "Duas cartas são distribuídas tanto para a mão do jogador quanto para a mão do banqueiro. Os valores das cartas são somados e a mão com o total mais alto é a vencedora.",
+  "rule3": "Se a mão do jogador tiver um total de 8 ou 9, é considerada uma vitória natural e nenhuma carta adicional é distribuída.",
+  "rule4": "Se nem a mão do jogador nem a mão do banqueiro tiverem uma vitória natural, uma terceira carta pode ser distribuída dependendo dos valores das duas primeiras cartas.",
+  "cardRankings": "Classificação das Cartas",
+  "cardRankingsText": "No bacará, as cartas de 2 a 9 têm o seu valor facial, 10s e cartas de figuras valem 0 e ases valem 1.",
+  "note": "Nota",
+  "noteText": "Empates são possíveis no bacará."
+}

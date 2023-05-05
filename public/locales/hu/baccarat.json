@@ -1,0 +1,18 @@
+{
+  "title": "Bakkara",
+  "description": "Egy egyszerű bakkara játék.",
+  "welcomeMessage": "Üdvözöljük a Bakkara játékban!",
+  "dealThirdCardButton": "Harmadik lap húzása",
+  "rulesTitle": "Szabályok",
+  "objective": "Cél",
+  "objectiveText": "A játék célja, hogy megjósolja, melyik kéz lesz nagyobb pontszámmal: a játékos vagy a bankár keze.",
+  "howToPlay": "Játékmenet",
+  "rule1": "A kártyák kiosztása előtt tétet kell helyezni a játékos vagy a bankár kezére.",
+  "rule2": "Két lapot osztanak mind a játékos, mind a bankár kezébe. A lapok értéke összeadódik, és a magasabb összegű kéz lesz a nyertes.",
+  "rule3": "Ha a játékos keze 8 vagy 9 értékű, akkor az egy természetes nyerésnek számít, és több lapot nem osztanak.",
+  "rule4": "Ha sem a játékos, sem a bankár keze nem nyer természetes nyeréssel, akkor harmadik lapot oszthatnak ki az első két lap értékétől függően.",
+  "cardRankings": "Kártya rangsor",
+  "cardRankingsText": "A bakkara játékban a 2-9 lapok értéke a lapok számával megegyezik, a 10-esek és az arckártyák értéke 0, az ászok értéke pedig 1.",
+  "note": "Megjegyzés",
+  "noteText": "A bakkara játékban előfordulhat döntetlen eredmény is."
+}

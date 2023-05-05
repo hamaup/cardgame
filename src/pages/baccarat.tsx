@@ -360,4 +360,12 @@ const Baccarat = () => {
 
 };
 
+export const getStaticProps = async ({ locale }: { locale: string }) => {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['baccarat'])),
+    },
+  };
+};
+
 export default Baccarat;

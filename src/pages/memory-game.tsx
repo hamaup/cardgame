@@ -67,7 +67,7 @@ const MemoryGame: React.FC = () => {
       if (newSelectedCards.length === 2) {
         setTimeout(() => {
           checkMatch(newSelectedCards);
-        }, 800);
+        }, 1000);
       }
     }
   };
@@ -81,7 +81,7 @@ const MemoryGame: React.FC = () => {
       } else {
         setTimeout(() => {
           setSelectedCards([]);
-        }, 800);
+        }, 1000);
       }
     }
   };

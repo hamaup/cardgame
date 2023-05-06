@@ -22,6 +22,8 @@ const Blackjack: React.FC = () => {
   const [gameOver, setGameOver] = useState(false);
   const [gameResult, setGameResult] = useState('');
   const [message, setMessage] = useState(t('welcomeMessage'));
+  const [isStanding, setIsStanding] = useState(false);
+
 
   useEffect(() => {
     startNewGame();
@@ -125,9 +127,9 @@ const Blackjack: React.FC = () => {
       resultText = t("dealer_wins");
     }
     resultText += "\n";
-    resultText += `${t('dealer_score')}: ${calculateHandValue(dealerHand)}`;
-    resultText += "\n";
     resultText += `${t('player_score')}: ${calculateHandValue(playerHand)}`;
+    resultText += "\n";
+    resultText += `${t('dealer_score')}: ${calculateHandValue(dealerHand)}`;
 
     setGameOver(true);
     setGameResult(resultText);
@@ -153,9 +155,17 @@ const Blackjack: React.FC = () => {
     while (calculateHandValue(newDealerHand) < 17) {
       newDealerHand = dealCards(deck, newDealerHand, 1);
     }
+    console.log("newDealerHand" + JSON.stringify(newDealerHand));
     setDealerHand(newDealerHand);
-    endGame();
+    setIsStanding(true);
   };
+
+  useEffect(() => {
+    if (isStanding) {
+      endGame();
+      setIsStanding(false);
+    }
+  }, [dealerHand, isStanding]);
 
   interface ModalProps {
     show: boolean;

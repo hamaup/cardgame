@@ -14,11 +14,13 @@
   /* other styles */
 }
 
+
 .card_image {
   width: 100%;
   height: 100%;
   /* other styles */
 }
+
 
 @media screen and (max-width: 640px) {
   .memory_card_container {

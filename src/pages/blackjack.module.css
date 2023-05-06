@@ -20,6 +20,13 @@
 
 }
 
+@media (max-width: 640px) {
+  .cardImage {
+    width: 66.67px;
+    height: 100px;
+  }
+}
+
 .disabledButton {
   background-color: #ccc;
   cursor: not-allowed;

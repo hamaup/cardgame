@@ -20,7 +20,7 @@ interface CardProps {
 const CardComponent: React.FC<CardProps> = ({ card, selected, onClick }) => {
   return (
     <img
-      className={`card ${selected ? 'selected' : ''}`}
+      className={`${styles.card} ${selected ? styles.selected : ''}`}
       src={card.image}
       alt={`${card.rank} of ${card.suit}`}
       onClick={onClick}
@@ -72,7 +72,7 @@ const DrawPokerGame: React.FC = () => {
     ranks.map(rank => ({
       suit,
       rank: rank,
-      image: `${suit}_${rank}.png`, // placeholder, replace with actual image path/naming convention
+      image: `/images/${suit}-${rank}.svg`, // placeholder, replace with actual image path/naming convention
     }))
   );
   // ゲームの状態を管理するためのstate変数を作成する

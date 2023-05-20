@@ -45,6 +45,10 @@ const Home: NextPage = () => {
               <span className="text-blue-500 hover:text-blue-700 cursor-pointer">{t('game.war')}
               </span>
             </Link>
+            <Link href="/draw-poker" as={`/draw-poker`}>
+              <span className="text-blue-500 hover:text-blue-700 cursor-pointer">{t('game.draw-poker')}
+              </span>
+            </Link>
           </div>
         </main>
       </div >
